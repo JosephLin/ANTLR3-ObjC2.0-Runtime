@@ -91,6 +91,14 @@
 		1AC5ACE712E7CE4C00DF0C58 /* LangLexer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC5ACC912E7C03C00DF0C58 /* LangLexer.m */; };
 		1AC5ACE812E7CE5100DF0C58 /* LangDumpDecl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC5ACC612E7C03C00DF0C58 /* LangDumpDecl.m */; };
 		1ADB67BA12E74E82007C1661 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A348BB511D2C711000C72FC /* Cocoa.framework */; };
+		7C2B6ABE16F258720039D918 /* ACNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C2B6AB616F258720039D918 /* ACNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C2B6ABF16F258720039D918 /* ACNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2B6AB716F258720039D918 /* ACNumber.m */; };
+		7C2B6AC016F258720039D918 /* Entry.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C2B6AB816F258720039D918 /* Entry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C2B6AC116F258720039D918 /* Entry.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2B6AB916F258720039D918 /* Entry.m */; };
+		7C2B6AC216F258720039D918 /* LinkedHashMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C2B6ABA16F258720039D918 /* LinkedHashMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C2B6AC316F258720039D918 /* LinkedHashMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2B6ABB16F258720039D918 /* LinkedHashMap.m */; };
+		7C2B6AC416F258720039D918 /* LinkedList.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C2B6ABC16F258720039D918 /* LinkedList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C2B6AC516F258720039D918 /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2B6ABD16F258720039D918 /* LinkedList.m */; };
 		91F5A530153F0C4400A6E36F /* Token+DebuggerSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A52E153F0C4400A6E36F /* Token+DebuggerSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91F5A531153F0C4400A6E36F /* Token+DebuggerSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A52F153F0C4400A6E36F /* Token+DebuggerSupport.m */; };
 		91F5A540153F0C7000A6E36F /* DebugEventListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A533153F0C7000A6E36F /* DebugEventListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -644,6 +652,14 @@
 		1ADB66F012E74341007C1661 /* FuzzyLexer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FuzzyLexer.h; sourceTree = "<group>"; };
 		1ADE21F012E505D700E8A95C /* SimpleC.g */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleC.g; sourceTree = "<group>"; };
 		32DBCF5E0370ADEE00C91783 /* ANTLR_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANTLR_Prefix.pch; sourceTree = "<group>"; };
+		7C2B6AB616F258720039D918 /* ACNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACNumber.h; sourceTree = "<group>"; };
+		7C2B6AB716F258720039D918 /* ACNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACNumber.m; sourceTree = "<group>"; };
+		7C2B6AB816F258720039D918 /* Entry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entry.h; sourceTree = "<group>"; };
+		7C2B6AB916F258720039D918 /* Entry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entry.m; sourceTree = "<group>"; };
+		7C2B6ABA16F258720039D918 /* LinkedHashMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedHashMap.h; sourceTree = "<group>"; };
+		7C2B6ABB16F258720039D918 /* LinkedHashMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedHashMap.m; sourceTree = "<group>"; };
+		7C2B6ABC16F258720039D918 /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
+		7C2B6ABD16F258720039D918 /* LinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedList.m; sourceTree = "<group>"; };
 		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8DC2EF5B0486A6940098B216 /* ANTLR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ANTLR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91F5A52E153F0C4400A6E36F /* Token+DebuggerSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Token+DebuggerSupport.h"; sourceTree = "<group>"; };
@@ -1691,6 +1707,14 @@
 		F7F218EB097AFB0C000472E9 /* Misc */ = {
 			isa = PBXGroup;
 			children = (
+				7C2B6AB616F258720039D918 /* ACNumber.h */,
+				7C2B6AB716F258720039D918 /* ACNumber.m */,
+				7C2B6AB816F258720039D918 /* Entry.h */,
+				7C2B6AB916F258720039D918 /* Entry.m */,
+				7C2B6ABA16F258720039D918 /* LinkedHashMap.h */,
+				7C2B6ABB16F258720039D918 /* LinkedHashMap.m */,
+				7C2B6ABC16F258720039D918 /* LinkedList.h */,
+				7C2B6ABD16F258720039D918 /* LinkedList.m */,
 				91F5A687153F124600A6E36F /* ACBTree.h */,
 				91F5A688153F124600A6E36F /* ACBTree.m */,
 				91F5A689153F124600A6E36F /* AMutableArray.h */,
@@ -1844,6 +1868,10 @@
 				91F5A691153F124D00A6E36F /* AMutableDictionary.h in Headers */,
 				91F5A695153F129A00A6E36F /* RewriteRuleNodeStream.h in Headers */,
 				91F5A699153F12BE00A6E36F /* ArrayIterator.h in Headers */,
+				7C2B6ABE16F258720039D918 /* ACNumber.h in Headers */,
+				7C2B6AC016F258720039D918 /* Entry.h in Headers */,
+				7C2B6AC216F258720039D918 /* LinkedHashMap.h in Headers */,
+				7C2B6AC416F258720039D918 /* LinkedList.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2760,6 +2788,10 @@
 				91F5A692153F124D00A6E36F /* AMutableDictionary.m in Sources */,
 				91F5A696153F129A00A6E36F /* RewriteRuleNodeStream.m in Sources */,
 				91F5A69A153F12BE00A6E36F /* ArrayIterator.m in Sources */,
+				7C2B6ABF16F258720039D918 /* ACNumber.m in Sources */,
+				7C2B6AC116F258720039D918 /* Entry.m in Sources */,
+				7C2B6AC316F258720039D918 /* LinkedHashMap.m in Sources */,
+				7C2B6AC516F258720039D918 /* LinkedList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4650,6 +4682,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ANTLR_EXTRA_JAVA_ARGS = "/Library/Java/Extensions/antlr-2.7.7.jar:/Users/acondit/IdeaProjects/antlr3/out/production/antlr3:/Users/acondit/IdeaProjects/antlr3/out/production/stringtemplate";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -4672,6 +4705,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Frameworks";
 				PRODUCT_NAME = ANTLR;
+				SDKROOT = macosx;
 				VERSIONING_SYSTEM = "apple-generic";
 				WRAPPER_EXTENSION = framework;
 				ZERO_LINK = NO;
@@ -4681,10 +4715,7 @@
 		1DEB91AF08733DA50010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				BUILD_VARIANTS = (
 					normal,
 					debug,
@@ -4702,6 +4733,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Frameworks";
 				PRODUCT_NAME = ANTLR;
+				SDKROOT = macosx;
 				VERSIONING_SYSTEM = "apple-generic";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -5181,6 +5213,7 @@
 		F7C562310CD513D400727DB0 /* Debug with StringTemplate Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -5202,6 +5235,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Frameworks";
 				PRODUCT_NAME = ANTLR;
+				SDKROOT = macosx;
 				VERSIONING_SYSTEM = "apple-generic";
 				WRAPPER_EXTENSION = framework;
 				ZERO_LINK = NO;

@@ -8,3 +8,6 @@ Framework/build/
 acondit.* # ignore all files that start with my name
 *.pbxproj # ignore project builder files
 *.pbxbtree
+.DS_Store
+xcuserdata
+project.xcworkspace
