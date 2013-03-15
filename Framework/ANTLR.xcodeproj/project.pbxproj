@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
+		7C89FA7016F3AA3900DE4508 /* ANTLR-iOS-Aggregate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7C89FA7116F3AA3900DE4508 /* Build configuration list for PBXAggregateTarget "ANTLR-iOS-Aggregate" */;
+			buildPhases = (
+				7C89FA7516F3AA4600DE4508 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "ANTLR-iOS-Aggregate";
+			productName = "ANTLR-iOS-Aggregate";
+		};
 		F762873F0B71519B006AA7EF /* Regenerate all examples */ = {
 			isa = PBXAggregateTarget;
 			buildConfigurationList = F76287400B7151B9006AA7EF /* Build configuration list for PBXAggregateTarget "Regenerate all examples" */;
@@ -99,197 +110,198 @@
 		7C2B6AC316F258720039D918 /* LinkedHashMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2B6ABB16F258720039D918 /* LinkedHashMap.m */; };
 		7C2B6AC416F258720039D918 /* LinkedList.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C2B6ABC16F258720039D918 /* LinkedList.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C2B6AC516F258720039D918 /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2B6ABD16F258720039D918 /* LinkedList.m */; };
-		7CBEFADA16F25AB80057BEAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBEFAD916F25AB80057BEAF /* Foundation.framework */; };
-		7CBEFAE616F25B590057BEAF /* Token+DebuggerSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A52F153F0C4400A6E36F /* Token+DebuggerSupport.m */; };
-		7CBEFAE716F25B590057BEAF /* DebugEventSocketProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A535153F0C7000A6E36F /* DebugEventSocketProxy.m */; };
-		7CBEFAE816F25B590057BEAF /* DebugParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A537153F0C7000A6E36F /* DebugParser.m */; };
-		7CBEFAE916F25B590057BEAF /* DebugTokenStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A539153F0C7000A6E36F /* DebugTokenStream.m */; };
-		7CBEFAEA16F25B590057BEAF /* DebugTreeAdaptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A53B153F0C7000A6E36F /* DebugTreeAdaptor.m */; };
-		7CBEFAEB16F25B590057BEAF /* DebugTreeNodeStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A53D153F0C7000A6E36F /* DebugTreeNodeStream.m */; };
-		7CBEFAEC16F25B590057BEAF /* DebugTreeParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A53F153F0C7000A6E36F /* DebugTreeParser.m */; };
-		7CBEFAED16F25B590057BEAF /* DFA.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A54E153F0C8D00A6E36F /* DFA.m */; };
-		7CBEFAEE16F25B590057BEAF /* EarlyExitException.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A552153F0C9E00A6E36F /* EarlyExitException.m */; };
-		7CBEFAEF16F25B590057BEAF /* FailedPredicateException.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A556153F0CAC00A6E36F /* FailedPredicateException.m */; };
-		7CBEFAF016F25B590057BEAF /* MismatchedNotSetException.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A55A153F0CF100A6E36F /* MismatchedNotSetException.m */; };
-		7CBEFAF116F25B590057BEAF /* MismatchedRangeException.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A55C153F0CF100A6E36F /* MismatchedRangeException.m */; };
-		7CBEFAF216F25B590057BEAF /* MismatchedSetException.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A55E153F0CF100A6E36F /* MismatchedSetException.m */; };
-		7CBEFAF316F25B590057BEAF /* MismatchedTokenException.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A560153F0CF100A6E36F /* MismatchedTokenException.m */; };
-		7CBEFAF416F25B590057BEAF /* MismatchedTreeNodeException.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A562153F0CF100A6E36F /* MismatchedTreeNodeException.m */; };
-		7CBEFAF516F25B590057BEAF /* MissingTokenException.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A564153F0CF100A6E36F /* MissingTokenException.m */; };
-		7CBEFAF616F25B590057BEAF /* NoViableAltException.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A566153F0CF100A6E36F /* NoViableAltException.m */; };
-		7CBEFAF716F25B590057BEAF /* RecognitionException.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A568153F0CF100A6E36F /* RecognitionException.m */; };
-		7CBEFAF816F25B590057BEAF /* RuntimeException.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A56A153F0CF100A6E36F /* RuntimeException.m */; };
-		7CBEFAF916F25B590057BEAF /* TreeException.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A56C153F0CF100A6E36F /* TreeException.m */; };
-		7CBEFAFA16F25B590057BEAF /* UnwantedTokenException.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A56E153F0CF100A6E36F /* UnwantedTokenException.m */; };
-		7CBEFAFB16F25B590057BEAF /* ACNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2B6AB716F258720039D918 /* ACNumber.m */; };
-		7CBEFAFC16F25B590057BEAF /* Entry.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2B6AB916F258720039D918 /* Entry.m */; };
-		7CBEFAFD16F25B590057BEAF /* LinkedHashMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2B6ABB16F258720039D918 /* LinkedHashMap.m */; };
-		7CBEFAFE16F25B590057BEAF /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2B6ABD16F258720039D918 /* LinkedList.m */; };
-		7CBEFAFF16F25B590057BEAF /* ACBTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A688153F124600A6E36F /* ACBTree.m */; };
-		7CBEFB0016F25B590057BEAF /* AMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A68A153F124600A6E36F /* AMutableArray.m */; };
-		7CBEFB0116F25B590057BEAF /* AMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A690153F124D00A6E36F /* AMutableDictionary.m */; };
-		7CBEFB0216F25B590057BEAF /* ArrayIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A698153F12BE00A6E36F /* ArrayIterator.m */; };
-		7CBEFB0316F25B590057BEAF /* BaseMapElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A586153F0D2500A6E36F /* BaseMapElement.m */; };
-		7CBEFB0416F25B590057BEAF /* BaseStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A588153F0D2500A6E36F /* BaseStack.m */; };
-		7CBEFB0516F25B590057BEAF /* ANTLRBitSet.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F218EF097AFB1A000472E9 /* ANTLRBitSet.m */; };
-		7CBEFB0616F25B590057BEAF /* CommonErrorNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A58E153F0D5600A6E36F /* CommonErrorNode.m */; };
-		7CBEFB0716F25B590057BEAF /* DoubleKeyMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A590153F0D5600A6E36F /* DoubleKeyMap.m */; };
-		7CBEFB0816F25B590057BEAF /* FastQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A592153F0D5600A6E36F /* FastQueue.m */; };
-		7CBEFB0916F25B590057BEAF /* HashMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A594153F0D5600A6E36F /* HashMap.m */; };
-		7CBEFB0A16F25B590057BEAF /* HashRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A596153F0D5600A6E36F /* HashRule.m */; };
-		7CBEFB0B16F25B590057BEAF /* IntArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A598153F0D5600A6E36F /* IntArray.m */; };
-		7CBEFB0C16F25B590057BEAF /* LinkBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5A6153F0DA100A6E36F /* LinkBase.m */; };
-		7CBEFB0D16F25B590057BEAF /* Map.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5A8153F0DA100A6E36F /* Map.m */; };
-		7CBEFB0E16F25B590057BEAF /* MapElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5AA153F0DA100A6E36F /* MapElement.m */; };
-		7CBEFB0F16F25B590057BEAF /* NodeMapElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5AC153F0DA100A6E36F /* NodeMapElement.m */; };
-		7CBEFB1016F25B590057BEAF /* PtrBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5AE153F0DA100A6E36F /* PtrBuffer.m */; };
-		7CBEFB1116F25B590057BEAF /* RuleMemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5B0153F0DA100A6E36F /* RuleMemo.m */; };
-		7CBEFB1216F25B590057BEAF /* RuleStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5B2153F0DA100A6E36F /* RuleStack.m */; };
-		7CBEFB1316F25B590057BEAF /* SymbolStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5B4153F0DA100A6E36F /* SymbolStack.m */; };
-		7CBEFB1416F25B590057BEAF /* UniqueIDMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5B6153F0DA100A6E36F /* UniqueIDMap.m */; };
-		7CBEFB1516F25B590057BEAF /* BaseRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5CA153F0DBA00A6E36F /* BaseRecognizer.m */; };
-		7CBEFB1616F25B590057BEAF /* Lexer.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5CE153F0DE200A6E36F /* Lexer.m */; };
-		7CBEFB1716F25B590057BEAF /* LexerRuleReturnScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5D0153F0DE200A6E36F /* LexerRuleReturnScope.m */; };
-		7CBEFB1816F25B590057BEAF /* RecognizerSharedState.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5D2153F0DE200A6E36F /* RecognizerSharedState.m */; };
-		7CBEFB1916F25B590057BEAF /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5DA153F0E0600A6E36F /* Parser.m */; };
-		7CBEFB1A16F25B590057BEAF /* ParseTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5DC153F0E0600A6E36F /* ParseTree.m */; };
-		7CBEFB1B16F25B590057BEAF /* TreeParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5DE153F0E0700A6E36F /* TreeParser.m */; };
-		7CBEFB1C16F25B590057BEAF /* ParserRuleReturnScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5E6153F0E3900A6E36F /* ParserRuleReturnScope.m */; };
-		7CBEFB1D16F25B590057BEAF /* RuleMapElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5E8153F0E3900A6E36F /* RuleMapElement.m */; };
-		7CBEFB1E16F25B590057BEAF /* RuleReturnScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5EA153F0E3900A6E36F /* RuleReturnScope.m */; };
-		7CBEFB1F16F25B590057BEAF /* TreeRuleReturnScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5EC153F0E3900A6E36F /* TreeRuleReturnScope.m */; };
-		7CBEFB2016F25B590057BEAF /* ANTLRFileStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2BD16D133C06A6005C2AFB /* ANTLRFileStream.m */; };
-		7CBEFB2116F25B590057BEAF /* BufferedTreeNodeStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5F6153F0E8700A6E36F /* BufferedTreeNodeStream.m */; };
-		7CBEFB2216F25B590057BEAF /* CommonTreeNodeStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5F8153F0E8700A6E36F /* CommonTreeNodeStream.m */; };
-		7CBEFB2316F25B590057BEAF /* RewriteRuleElementStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5FA153F0E8700A6E36F /* RewriteRuleElementStream.m */; };
-		7CBEFB2416F25B590057BEAF /* RewriteRuleSubtreeStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5FE153F0E8700A6E36F /* RewriteRuleSubtreeStream.m */; };
-		7CBEFB2516F25B590057BEAF /* RewriteRuleTokenStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A600153F0E8700A6E36F /* RewriteRuleTokenStream.m */; };
-		7CBEFB2616F25B590057BEAF /* UnbufferedCommonTreeNodeStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A603153F0E8700A6E36F /* UnbufferedCommonTreeNodeStream.m */; };
-		7CBEFB2716F25B590057BEAF /* UnbufferedCommonTreeNodeStreamState.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A605153F0E8700A6E36F /* UnbufferedCommonTreeNodeStreamState.m */; };
-		7CBEFB2816F25B590057BEAF /* BufferedTokenStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A618153F0EEC00A6E36F /* BufferedTokenStream.m */; };
-		7CBEFB2916F25B590057BEAF /* CommonTokenStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A61B153F0EED00A6E36F /* CommonTokenStream.m */; };
-		7CBEFB2A16F25B590057BEAF /* ANTLRInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7381841312C3BE008CCA16 /* ANTLRInputStream.m */; };
-		7CBEFB2B16F25B590057BEAF /* LookaheadStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A623153F0F0000A6E36F /* LookaheadStream.m */; };
-		7CBEFB2C16F25B590057BEAF /* ANTLRReaderStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A73817F1312C3AF008CCA16 /* ANTLRReaderStream.m */; };
-		7CBEFB2D16F25B590057BEAF /* StreamEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A628153F0F1800A6E36F /* StreamEnumerator.m */; };
-		7CBEFB2E16F25B590057BEAF /* ANTLRStringStream.m in Sources */ = {isa = PBXBuildFile; fileRef = F70AA7C609AA339900C3FD5E /* ANTLRStringStream.m */; };
-		7CBEFB2F16F25B590057BEAF /* TokenRewriteStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A62C153F0F4700A6E36F /* TokenRewriteStream.m */; };
-		7CBEFB3016F25B590057BEAF /* UnbufferedTokenStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A62F153F0F4800A6E36F /* UnbufferedTokenStream.m */; };
-		7CBEFB3116F25B590057BEAF /* RewriteRuleNodeStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A694153F129A00A6E36F /* RewriteRuleNodeStream.m */; };
-		7CBEFB3216F25B590057BEAF /* CommonToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A63A153F0F7E00A6E36F /* CommonToken.m */; };
-		7CBEFB3316F25B590057BEAF /* BaseTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A63E153F0FEF00A6E36F /* BaseTree.m */; };
-		7CBEFB3416F25B590057BEAF /* BaseTreeAdaptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A640153F0FEF00A6E36F /* BaseTreeAdaptor.m */; };
-		7CBEFB3516F25B590057BEAF /* CharStreamState.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A642153F0FEF00A6E36F /* CharStreamState.m */; };
-		7CBEFB3616F25B590057BEAF /* CommonTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A644153F0FEF00A6E36F /* CommonTree.m */; };
-		7CBEFB3716F25B590057BEAF /* CommonTreeAdaptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A646153F0FEF00A6E36F /* CommonTreeAdaptor.m */; };
-		7CBEFB3816F25B590057BEAF /* TreeIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A64A153F0FEF00A6E36F /* TreeIterator.m */; };
-		7CBEFB3916F25B590057BEAF /* TreePatternLexer.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A64C153F0FEF00A6E36F /* TreePatternLexer.m */; };
-		7CBEFB3A16F25B590057BEAF /* TreePatternParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A64E153F0FEF00A6E36F /* TreePatternParser.m */; };
-		7CBEFB3B16F25B590057BEAF /* TreeRewriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A650153F0FEF00A6E36F /* TreeRewriter.m */; };
-		7CBEFB3C16F25B590057BEAF /* TreeVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A652153F0FEF00A6E36F /* TreeVisitor.m */; };
-		7CBEFB3D16F25B590057BEAF /* TreeVisitorAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A654153F0FEF00A6E36F /* TreeVisitorAction.m */; };
-		7CBEFB3E16F25B590057BEAF /* TreeWizard.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A656153F0FEF00A6E36F /* TreeWizard.m */; };
-		7CBEFBAD16F2659B0057BEAF /* Token+DebuggerSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A52E153F0C4400A6E36F /* Token+DebuggerSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBAE16F2659B0057BEAF /* DebugEventListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A533153F0C7000A6E36F /* DebugEventListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBAF16F2659B0057BEAF /* DebugEventSocketProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A534153F0C7000A6E36F /* DebugEventSocketProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBB016F2659B0057BEAF /* DebugParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A536153F0C7000A6E36F /* DebugParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBB116F2659B0057BEAF /* DebugTokenStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A538153F0C7000A6E36F /* DebugTokenStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBB216F2659B0057BEAF /* DebugTreeAdaptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A53A153F0C7000A6E36F /* DebugTreeAdaptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBB316F2659B0057BEAF /* DebugTreeNodeStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A53C153F0C7000A6E36F /* DebugTreeNodeStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBB416F2659B0057BEAF /* DebugTreeParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A53E153F0C7000A6E36F /* DebugTreeParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBB516F2659B0057BEAF /* DFA.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A54D153F0C8D00A6E36F /* DFA.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBB616F2659B0057BEAF /* EarlyExitException.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A551153F0C9E00A6E36F /* EarlyExitException.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBB716F2659B0057BEAF /* FailedPredicateException.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A555153F0CAC00A6E36F /* FailedPredicateException.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBB816F2659B0057BEAF /* MismatchedNotSetException.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A559153F0CF100A6E36F /* MismatchedNotSetException.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBB916F2659B0057BEAF /* MismatchedRangeException.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A55B153F0CF100A6E36F /* MismatchedRangeException.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBBA16F2659B0057BEAF /* MismatchedSetException.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A55D153F0CF100A6E36F /* MismatchedSetException.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBBB16F2659B0057BEAF /* MismatchedTokenException.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A55F153F0CF100A6E36F /* MismatchedTokenException.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBBC16F2659B0057BEAF /* MismatchedTreeNodeException.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A561153F0CF100A6E36F /* MismatchedTreeNodeException.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBBD16F2659B0057BEAF /* MissingTokenException.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A563153F0CF100A6E36F /* MissingTokenException.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBBE16F2659B0057BEAF /* NoViableAltException.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A565153F0CF100A6E36F /* NoViableAltException.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBBF16F2659B0057BEAF /* RecognitionException.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A567153F0CF100A6E36F /* RecognitionException.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBC016F2659B0057BEAF /* RuntimeException.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A569153F0CF100A6E36F /* RuntimeException.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBC116F2659B0057BEAF /* TreeException.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A56B153F0CF100A6E36F /* TreeException.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBC216F2659B0057BEAF /* UnwantedTokenException.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A56D153F0CF100A6E36F /* UnwantedTokenException.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBC316F2659B0057BEAF /* ACNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C2B6AB616F258720039D918 /* ACNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBC416F2659B0057BEAF /* Entry.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C2B6AB816F258720039D918 /* Entry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBC516F2659B0057BEAF /* LinkedHashMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C2B6ABA16F258720039D918 /* LinkedHashMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBC616F2659B0057BEAF /* LinkedList.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C2B6ABC16F258720039D918 /* LinkedList.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBC716F2659B0057BEAF /* ACBTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A687153F124600A6E36F /* ACBTree.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBC816F2659B0057BEAF /* AMutableArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A689153F124600A6E36F /* AMutableArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBC916F2659B0057BEAF /* AMutableDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A68F153F124D00A6E36F /* AMutableDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBCA16F2659B0057BEAF /* ArrayIterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A697153F12BE00A6E36F /* ArrayIterator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBCB16F2659B0057BEAF /* BaseMapElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A585153F0D2500A6E36F /* BaseMapElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBCC16F2659B0057BEAF /* BaseStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A587153F0D2500A6E36F /* BaseStack.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBCD16F2659B0057BEAF /* ANTLRBitSet.h in Headers */ = {isa = PBXBuildFile; fileRef = F7F218EE097AFB1A000472E9 /* ANTLRBitSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBCE16F2659B0057BEAF /* CommonErrorNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A58D153F0D5600A6E36F /* CommonErrorNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBCF16F2659B0057BEAF /* DoubleKeyMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A58F153F0D5600A6E36F /* DoubleKeyMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBD016F2659B0057BEAF /* FastQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A591153F0D5600A6E36F /* FastQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBD116F2659B0057BEAF /* HashMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A593153F0D5600A6E36F /* HashMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBD216F2659B0057BEAF /* HashRule.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A595153F0D5600A6E36F /* HashRule.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBD316F2659B0057BEAF /* IntArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A597153F0D5600A6E36F /* IntArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBD416F2659B0057BEAF /* LinkBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5A5153F0DA100A6E36F /* LinkBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBD516F2659B0057BEAF /* Map.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5A7153F0DA100A6E36F /* Map.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBD616F2659B0057BEAF /* MapElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5A9153F0DA100A6E36F /* MapElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBD716F2659B0057BEAF /* NodeMapElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5AB153F0DA100A6E36F /* NodeMapElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBD816F2659B0057BEAF /* PtrBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5AD153F0DA100A6E36F /* PtrBuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBD916F2659B0057BEAF /* RuleMemo.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5AF153F0DA100A6E36F /* RuleMemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBDA16F2659B0057BEAF /* RuleStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5B1153F0DA100A6E36F /* RuleStack.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBDB16F2659B0057BEAF /* SymbolStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5B3153F0DA100A6E36F /* SymbolStack.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBDC16F2659B0057BEAF /* UniqueIDMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5B5153F0DA100A6E36F /* UniqueIDMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBDD16F2659B0057BEAF /* BaseRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5C9153F0DBA00A6E36F /* BaseRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBDE16F2659B0057BEAF /* Lexer.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5CD153F0DE200A6E36F /* Lexer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBDF16F2659B0057BEAF /* LexerRuleReturnScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5CF153F0DE200A6E36F /* LexerRuleReturnScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBE016F2659B0057BEAF /* RecognizerSharedState.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5D1153F0DE200A6E36F /* RecognizerSharedState.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBE116F2659B0057BEAF /* Parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5D9153F0E0600A6E36F /* Parser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBE216F2659B0057BEAF /* ParseTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5DB153F0E0600A6E36F /* ParseTree.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBE316F2659B0057BEAF /* TreeParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5DD153F0E0700A6E36F /* TreeParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBE416F2659B0057BEAF /* ParserRuleReturnScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5E5153F0E3900A6E36F /* ParserRuleReturnScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBE516F2659B0057BEAF /* RuleMapElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5E7153F0E3900A6E36F /* RuleMapElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBE616F2659B0057BEAF /* RuleReturnScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5E9153F0E3900A6E36F /* RuleReturnScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBE716F2659B0057BEAF /* TreeRuleReturnScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5EB153F0E3900A6E36F /* TreeRuleReturnScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBE816F2659B0057BEAF /* ANTLRFileStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A2BD16C133C06A6005C2AFB /* ANTLRFileStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBE916F2659B0057BEAF /* BufferedTreeNodeStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5F5153F0E8700A6E36F /* BufferedTreeNodeStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBEA16F2659B0057BEAF /* CommonTreeNodeStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5F7153F0E8700A6E36F /* CommonTreeNodeStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBEB16F2659B0057BEAF /* RewriteRuleElementStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5F9153F0E8700A6E36F /* RewriteRuleElementStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBEC16F2659B0057BEAF /* RewriteRuleSubtreeStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5FD153F0E8700A6E36F /* RewriteRuleSubtreeStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBED16F2659B0057BEAF /* RewriteRuleTokenStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5FF153F0E8700A6E36F /* RewriteRuleTokenStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBEE16F2659B0057BEAF /* TreeNodeStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A601153F0E8700A6E36F /* TreeNodeStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBEF16F2659B0057BEAF /* UnbufferedCommonTreeNodeStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A602153F0E8700A6E36F /* UnbufferedCommonTreeNodeStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBF016F2659B0057BEAF /* UnbufferedCommonTreeNodeStreamState.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A604153F0E8700A6E36F /* UnbufferedCommonTreeNodeStreamState.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBF116F2659B0057BEAF /* BufferedTokenStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A617153F0EEB00A6E36F /* BufferedTokenStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBF216F2659B0057BEAF /* CharStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A619153F0EEC00A6E36F /* CharStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBF316F2659B0057BEAF /* CommonTokenStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A61A153F0EEC00A6E36F /* CommonTokenStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBF416F2659B0057BEAF /* ANTLRInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A7381831312C3BE008CCA16 /* ANTLRInputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBF516F2659B0057BEAF /* IntStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A621153F0F0000A6E36F /* IntStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBF616F2659B0057BEAF /* LookaheadStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A622153F0F0000A6E36F /* LookaheadStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBF716F2659B0057BEAF /* ANTLRReaderStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A73817E1312C3AF008CCA16 /* ANTLRReaderStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBF816F2659B0057BEAF /* StreamEnumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A627153F0F1800A6E36F /* StreamEnumerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBF916F2659B0057BEAF /* ANTLRStringStream.h in Headers */ = {isa = PBXBuildFile; fileRef = F70AA7C509AA339900C3FD5E /* ANTLRStringStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBFA16F2659B0057BEAF /* TokenSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A635153F0F6000A6E36F /* TokenSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBFB16F2659B0057BEAF /* TokenRewriteStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A62B153F0F4700A6E36F /* TokenRewriteStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBFC16F2659B0057BEAF /* TokenStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A62D153F0F4700A6E36F /* TokenStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBFD16F2659B0057BEAF /* UnbufferedTokenStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A62E153F0F4700A6E36F /* UnbufferedTokenStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBFE16F2659B0057BEAF /* RewriteRuleNodeStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A693153F129A00A6E36F /* RewriteRuleNodeStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFBFF16F2659B0057BEAF /* Token.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A637153F0F7400A6E36F /* Token.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFC0016F2659B0057BEAF /* CommonToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A639153F0F7E00A6E36F /* CommonToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFC0116F2659B0057BEAF /* BaseTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A63D153F0FEF00A6E36F /* BaseTree.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFC0216F2659B0057BEAF /* BaseTreeAdaptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A63F153F0FEF00A6E36F /* BaseTreeAdaptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFC0316F2659B0057BEAF /* CharStreamState.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A641153F0FEF00A6E36F /* CharStreamState.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFC0416F2659B0057BEAF /* CommonTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A643153F0FEF00A6E36F /* CommonTree.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFC0516F2659B0057BEAF /* CommonTreeAdaptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A645153F0FEF00A6E36F /* CommonTreeAdaptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFC0616F2659B0057BEAF /* Tree.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A647153F0FEF00A6E36F /* Tree.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFC0716F2659B0057BEAF /* TreeAdaptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A648153F0FEF00A6E36F /* TreeAdaptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFC0816F2659B0057BEAF /* TreeIterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A649153F0FEF00A6E36F /* TreeIterator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFC0916F2659B0057BEAF /* TreePatternLexer.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A64B153F0FEF00A6E36F /* TreePatternLexer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFC0A16F2659B0057BEAF /* TreePatternParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A64D153F0FEF00A6E36F /* TreePatternParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFC0B16F2659B0057BEAF /* TreeRewriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A64F153F0FEF00A6E36F /* TreeRewriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFC0C16F2659B0057BEAF /* TreeVisitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A651153F0FEF00A6E36F /* TreeVisitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFC0D16F2659B0057BEAF /* TreeVisitorAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A653153F0FEF00A6E36F /* TreeVisitorAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFC0E16F2659B0057BEAF /* TreeWizard.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A655153F0FEF00A6E36F /* TreeWizard.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFC0F16F266C00057BEAF /* ANTLR-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CBEFBAB16F264B20057BEAF /* ANTLR-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFC1016F266C70057BEAF /* Debug.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A685153F117900A6E36F /* Debug.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBEFC1116F266D90057BEAF /* ANTLRError.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A1CCCC711B727B5002E5F53 /* ANTLRError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FA6416F3A9A100DE4508 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C89FA6316F3A9A100DE4508 /* CoreFoundation.framework */; };
+		7C89FA7616F3AA8800DE4508 /* Token+DebuggerSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A52F153F0C4400A6E36F /* Token+DebuggerSupport.m */; };
+		7C89FA7716F3AA8800DE4508 /* DebugEventSocketProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A535153F0C7000A6E36F /* DebugEventSocketProxy.m */; };
+		7C89FA7816F3AA8800DE4508 /* DebugParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A537153F0C7000A6E36F /* DebugParser.m */; };
+		7C89FA7916F3AA8800DE4508 /* DebugTokenStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A539153F0C7000A6E36F /* DebugTokenStream.m */; };
+		7C89FA7A16F3AA8800DE4508 /* DebugTreeAdaptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A53B153F0C7000A6E36F /* DebugTreeAdaptor.m */; };
+		7C89FA7B16F3AA8800DE4508 /* DebugTreeNodeStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A53D153F0C7000A6E36F /* DebugTreeNodeStream.m */; };
+		7C89FA7C16F3AA8800DE4508 /* DebugTreeParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A53F153F0C7000A6E36F /* DebugTreeParser.m */; };
+		7C89FA7D16F3AA8800DE4508 /* DFA.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A54E153F0C8D00A6E36F /* DFA.m */; };
+		7C89FA7E16F3AA8800DE4508 /* EarlyExitException.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A552153F0C9E00A6E36F /* EarlyExitException.m */; };
+		7C89FA7F16F3AA8800DE4508 /* FailedPredicateException.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A556153F0CAC00A6E36F /* FailedPredicateException.m */; };
+		7C89FA8016F3AA8800DE4508 /* MismatchedNotSetException.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A55A153F0CF100A6E36F /* MismatchedNotSetException.m */; };
+		7C89FA8116F3AA8800DE4508 /* MismatchedRangeException.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A55C153F0CF100A6E36F /* MismatchedRangeException.m */; };
+		7C89FA8216F3AA8800DE4508 /* MismatchedSetException.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A55E153F0CF100A6E36F /* MismatchedSetException.m */; };
+		7C89FA8316F3AA8800DE4508 /* MismatchedTokenException.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A560153F0CF100A6E36F /* MismatchedTokenException.m */; };
+		7C89FA8416F3AA8800DE4508 /* MismatchedTreeNodeException.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A562153F0CF100A6E36F /* MismatchedTreeNodeException.m */; };
+		7C89FA8516F3AA8800DE4508 /* MissingTokenException.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A564153F0CF100A6E36F /* MissingTokenException.m */; };
+		7C89FA8616F3AA8800DE4508 /* NoViableAltException.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A566153F0CF100A6E36F /* NoViableAltException.m */; };
+		7C89FA8716F3AA8800DE4508 /* RecognitionException.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A568153F0CF100A6E36F /* RecognitionException.m */; };
+		7C89FA8816F3AA8800DE4508 /* RuntimeException.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A56A153F0CF100A6E36F /* RuntimeException.m */; };
+		7C89FA8916F3AA8800DE4508 /* TreeException.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A56C153F0CF100A6E36F /* TreeException.m */; };
+		7C89FA8A16F3AA8800DE4508 /* UnwantedTokenException.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A56E153F0CF100A6E36F /* UnwantedTokenException.m */; };
+		7C89FA8B16F3AA8800DE4508 /* ACNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2B6AB716F258720039D918 /* ACNumber.m */; };
+		7C89FA8C16F3AA8800DE4508 /* Entry.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2B6AB916F258720039D918 /* Entry.m */; };
+		7C89FA8D16F3AA8800DE4508 /* LinkedHashMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2B6ABB16F258720039D918 /* LinkedHashMap.m */; };
+		7C89FA8E16F3AA8800DE4508 /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2B6ABD16F258720039D918 /* LinkedList.m */; };
+		7C89FA8F16F3AA8800DE4508 /* ACBTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A688153F124600A6E36F /* ACBTree.m */; };
+		7C89FA9016F3AA8800DE4508 /* AMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A68A153F124600A6E36F /* AMutableArray.m */; };
+		7C89FA9116F3AA8800DE4508 /* AMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A690153F124D00A6E36F /* AMutableDictionary.m */; };
+		7C89FA9216F3AA8800DE4508 /* ArrayIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A698153F12BE00A6E36F /* ArrayIterator.m */; };
+		7C89FA9316F3AA8800DE4508 /* BaseMapElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A586153F0D2500A6E36F /* BaseMapElement.m */; };
+		7C89FA9416F3AA8800DE4508 /* BaseStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A588153F0D2500A6E36F /* BaseStack.m */; };
+		7C89FA9516F3AA8800DE4508 /* ANTLRBitSet.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F218EF097AFB1A000472E9 /* ANTLRBitSet.m */; };
+		7C89FA9616F3AA8800DE4508 /* CommonErrorNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A58E153F0D5600A6E36F /* CommonErrorNode.m */; };
+		7C89FA9716F3AA8800DE4508 /* DoubleKeyMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A590153F0D5600A6E36F /* DoubleKeyMap.m */; };
+		7C89FA9816F3AA8800DE4508 /* FastQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A592153F0D5600A6E36F /* FastQueue.m */; };
+		7C89FA9916F3AA8800DE4508 /* HashMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A594153F0D5600A6E36F /* HashMap.m */; };
+		7C89FA9A16F3AA8800DE4508 /* HashRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A596153F0D5600A6E36F /* HashRule.m */; };
+		7C89FA9B16F3AA8800DE4508 /* IntArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A598153F0D5600A6E36F /* IntArray.m */; };
+		7C89FA9C16F3AA8800DE4508 /* LinkBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5A6153F0DA100A6E36F /* LinkBase.m */; };
+		7C89FA9D16F3AA8800DE4508 /* Map.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5A8153F0DA100A6E36F /* Map.m */; };
+		7C89FA9E16F3AA8800DE4508 /* MapElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5AA153F0DA100A6E36F /* MapElement.m */; };
+		7C89FA9F16F3AA8800DE4508 /* NodeMapElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5AC153F0DA100A6E36F /* NodeMapElement.m */; };
+		7C89FAA016F3AA8800DE4508 /* PtrBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5AE153F0DA100A6E36F /* PtrBuffer.m */; };
+		7C89FAA116F3AA8800DE4508 /* RuleMemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5B0153F0DA100A6E36F /* RuleMemo.m */; };
+		7C89FAA216F3AA8800DE4508 /* RuleStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5B2153F0DA100A6E36F /* RuleStack.m */; };
+		7C89FAA316F3AA8800DE4508 /* SymbolStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5B4153F0DA100A6E36F /* SymbolStack.m */; };
+		7C89FAA416F3AA8800DE4508 /* UniqueIDMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5B6153F0DA100A6E36F /* UniqueIDMap.m */; };
+		7C89FAA516F3AA8800DE4508 /* BaseRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5CA153F0DBA00A6E36F /* BaseRecognizer.m */; };
+		7C89FAA616F3AA8800DE4508 /* Lexer.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5CE153F0DE200A6E36F /* Lexer.m */; };
+		7C89FAA716F3AA8800DE4508 /* LexerRuleReturnScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5D0153F0DE200A6E36F /* LexerRuleReturnScope.m */; };
+		7C89FAA816F3AA8800DE4508 /* RecognizerSharedState.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5D2153F0DE200A6E36F /* RecognizerSharedState.m */; };
+		7C89FAA916F3AA8800DE4508 /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5DA153F0E0600A6E36F /* Parser.m */; };
+		7C89FAAA16F3AA8800DE4508 /* ParseTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5DC153F0E0600A6E36F /* ParseTree.m */; };
+		7C89FAAB16F3AA8800DE4508 /* TreeParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5DE153F0E0700A6E36F /* TreeParser.m */; };
+		7C89FAAC16F3AA8800DE4508 /* ParserRuleReturnScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5E6153F0E3900A6E36F /* ParserRuleReturnScope.m */; };
+		7C89FAAD16F3AA8800DE4508 /* RuleMapElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5E8153F0E3900A6E36F /* RuleMapElement.m */; };
+		7C89FAAE16F3AA8800DE4508 /* RuleReturnScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5EA153F0E3900A6E36F /* RuleReturnScope.m */; };
+		7C89FAAF16F3AA8800DE4508 /* TreeRuleReturnScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5EC153F0E3900A6E36F /* TreeRuleReturnScope.m */; };
+		7C89FAB016F3AA8800DE4508 /* ANTLRFileStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2BD16D133C06A6005C2AFB /* ANTLRFileStream.m */; };
+		7C89FAB116F3AA8800DE4508 /* BufferedTreeNodeStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5F6153F0E8700A6E36F /* BufferedTreeNodeStream.m */; };
+		7C89FAB216F3AA8800DE4508 /* CommonTreeNodeStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5F8153F0E8700A6E36F /* CommonTreeNodeStream.m */; };
+		7C89FAB316F3AA8800DE4508 /* RewriteRuleElementStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5FA153F0E8700A6E36F /* RewriteRuleElementStream.m */; };
+		7C89FAB416F3AA8800DE4508 /* RewriteRuleSubtreeStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A5FE153F0E8700A6E36F /* RewriteRuleSubtreeStream.m */; };
+		7C89FAB516F3AA8800DE4508 /* RewriteRuleTokenStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A600153F0E8700A6E36F /* RewriteRuleTokenStream.m */; };
+		7C89FAB616F3AA8800DE4508 /* UnbufferedCommonTreeNodeStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A603153F0E8700A6E36F /* UnbufferedCommonTreeNodeStream.m */; };
+		7C89FAB716F3AA8800DE4508 /* UnbufferedCommonTreeNodeStreamState.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A605153F0E8700A6E36F /* UnbufferedCommonTreeNodeStreamState.m */; };
+		7C89FAB816F3AA8800DE4508 /* BufferedTokenStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A618153F0EEC00A6E36F /* BufferedTokenStream.m */; };
+		7C89FAB916F3AA8800DE4508 /* CommonTokenStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A61B153F0EED00A6E36F /* CommonTokenStream.m */; };
+		7C89FABA16F3AA8800DE4508 /* ANTLRInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7381841312C3BE008CCA16 /* ANTLRInputStream.m */; };
+		7C89FABB16F3AA8800DE4508 /* LookaheadStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A623153F0F0000A6E36F /* LookaheadStream.m */; };
+		7C89FABC16F3AA8800DE4508 /* ANTLRReaderStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A73817F1312C3AF008CCA16 /* ANTLRReaderStream.m */; };
+		7C89FABD16F3AA8800DE4508 /* StreamEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A628153F0F1800A6E36F /* StreamEnumerator.m */; };
+		7C89FABE16F3AA8800DE4508 /* ANTLRStringStream.m in Sources */ = {isa = PBXBuildFile; fileRef = F70AA7C609AA339900C3FD5E /* ANTLRStringStream.m */; };
+		7C89FABF16F3AA8800DE4508 /* TokenRewriteStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A62C153F0F4700A6E36F /* TokenRewriteStream.m */; };
+		7C89FAC016F3AA8800DE4508 /* UnbufferedTokenStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A62F153F0F4800A6E36F /* UnbufferedTokenStream.m */; };
+		7C89FAC116F3AA8800DE4508 /* RewriteRuleNodeStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A694153F129A00A6E36F /* RewriteRuleNodeStream.m */; };
+		7C89FAC216F3AA8800DE4508 /* CommonToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A63A153F0F7E00A6E36F /* CommonToken.m */; };
+		7C89FAC316F3AA8800DE4508 /* BaseTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A63E153F0FEF00A6E36F /* BaseTree.m */; };
+		7C89FAC416F3AA8800DE4508 /* BaseTreeAdaptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A640153F0FEF00A6E36F /* BaseTreeAdaptor.m */; };
+		7C89FAC516F3AA8800DE4508 /* CharStreamState.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A642153F0FEF00A6E36F /* CharStreamState.m */; };
+		7C89FAC616F3AA8800DE4508 /* CommonTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A644153F0FEF00A6E36F /* CommonTree.m */; };
+		7C89FAC716F3AA8800DE4508 /* CommonTreeAdaptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A646153F0FEF00A6E36F /* CommonTreeAdaptor.m */; };
+		7C89FAC816F3AA8800DE4508 /* TreeIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A64A153F0FEF00A6E36F /* TreeIterator.m */; };
+		7C89FAC916F3AA8800DE4508 /* TreePatternLexer.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A64C153F0FEF00A6E36F /* TreePatternLexer.m */; };
+		7C89FACA16F3AA8800DE4508 /* TreePatternParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A64E153F0FEF00A6E36F /* TreePatternParser.m */; };
+		7C89FACB16F3AA8800DE4508 /* TreeRewriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A650153F0FEF00A6E36F /* TreeRewriter.m */; };
+		7C89FACC16F3AA8800DE4508 /* TreeVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A652153F0FEF00A6E36F /* TreeVisitor.m */; };
+		7C89FACD16F3AA8800DE4508 /* TreeVisitorAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A654153F0FEF00A6E36F /* TreeVisitorAction.m */; };
+		7C89FACE16F3AA8800DE4508 /* TreeWizard.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A656153F0FEF00A6E36F /* TreeWizard.m */; };
+		7C89FAD016F3AAB500DE4508 /* Token+DebuggerSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A52E153F0C4400A6E36F /* Token+DebuggerSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FAD116F3AAB600DE4508 /* DebugEventListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A533153F0C7000A6E36F /* DebugEventListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FAD216F3AAB600DE4508 /* DebugEventSocketProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A534153F0C7000A6E36F /* DebugEventSocketProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FAD316F3AAB600DE4508 /* DebugParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A536153F0C7000A6E36F /* DebugParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FAD416F3AAB600DE4508 /* DebugTokenStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A538153F0C7000A6E36F /* DebugTokenStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FAD516F3AAB600DE4508 /* DebugTreeAdaptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A53A153F0C7000A6E36F /* DebugTreeAdaptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FAD616F3AAB600DE4508 /* DebugTreeNodeStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A53C153F0C7000A6E36F /* DebugTreeNodeStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FAD716F3AAB600DE4508 /* DebugTreeParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A53E153F0C7000A6E36F /* DebugTreeParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FAD816F3AAB600DE4508 /* EarlyExitException.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A551153F0C9E00A6E36F /* EarlyExitException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FAD916F3AAB600DE4508 /* FailedPredicateException.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A555153F0CAC00A6E36F /* FailedPredicateException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FADA16F3AAB600DE4508 /* MismatchedNotSetException.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A559153F0CF100A6E36F /* MismatchedNotSetException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FADB16F3AAB600DE4508 /* MismatchedRangeException.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A55B153F0CF100A6E36F /* MismatchedRangeException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FADC16F3AAB600DE4508 /* MismatchedSetException.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A55D153F0CF100A6E36F /* MismatchedSetException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FADD16F3AAB600DE4508 /* MismatchedTokenException.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A55F153F0CF100A6E36F /* MismatchedTokenException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FADE16F3AAB600DE4508 /* MismatchedTreeNodeException.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A561153F0CF100A6E36F /* MismatchedTreeNodeException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FADF16F3AAB600DE4508 /* MissingTokenException.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A563153F0CF100A6E36F /* MissingTokenException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FAE016F3AAB600DE4508 /* NoViableAltException.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A565153F0CF100A6E36F /* NoViableAltException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FAE116F3AAB600DE4508 /* RecognitionException.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A567153F0CF100A6E36F /* RecognitionException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FAE216F3AAB600DE4508 /* RuntimeException.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A569153F0CF100A6E36F /* RuntimeException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FAE316F3AAB600DE4508 /* TreeException.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A56B153F0CF100A6E36F /* TreeException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FAE416F3AAB600DE4508 /* UnwantedTokenException.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A56D153F0CF100A6E36F /* UnwantedTokenException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FAE516F3AAB600DE4508 /* ACNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C2B6AB616F258720039D918 /* ACNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FAE616F3AAB600DE4508 /* Entry.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C2B6AB816F258720039D918 /* Entry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FAE716F3AAB600DE4508 /* LinkedHashMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C2B6ABA16F258720039D918 /* LinkedHashMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FAE816F3AAB600DE4508 /* LinkedList.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C2B6ABC16F258720039D918 /* LinkedList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FAE916F3AAB600DE4508 /* ACBTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A687153F124600A6E36F /* ACBTree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FAEA16F3AAB600DE4508 /* AMutableArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A689153F124600A6E36F /* AMutableArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FAEB16F3AAB600DE4508 /* AMutableDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A68F153F124D00A6E36F /* AMutableDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FAEC16F3AAB600DE4508 /* ArrayIterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A697153F12BE00A6E36F /* ArrayIterator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FAED16F3AAB600DE4508 /* BaseMapElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A585153F0D2500A6E36F /* BaseMapElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FAEE16F3AAB600DE4508 /* BaseStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A587153F0D2500A6E36F /* BaseStack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FAEF16F3AAB600DE4508 /* ANTLRBitSet.h in Headers */ = {isa = PBXBuildFile; fileRef = F7F218EE097AFB1A000472E9 /* ANTLRBitSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FAF016F3AAB600DE4508 /* CommonErrorNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A58D153F0D5600A6E36F /* CommonErrorNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FAF116F3AAB600DE4508 /* DoubleKeyMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A58F153F0D5600A6E36F /* DoubleKeyMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FAF216F3AAB600DE4508 /* FastQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A591153F0D5600A6E36F /* FastQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FAF316F3AAB600DE4508 /* HashMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A593153F0D5600A6E36F /* HashMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FAF416F3AAB600DE4508 /* HashRule.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A595153F0D5600A6E36F /* HashRule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FAF516F3AAB600DE4508 /* IntArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A597153F0D5600A6E36F /* IntArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FAF616F3AAB600DE4508 /* LinkBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5A5153F0DA100A6E36F /* LinkBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FAF716F3AAB600DE4508 /* Map.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5A7153F0DA100A6E36F /* Map.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FAF816F3AAB600DE4508 /* MapElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5A9153F0DA100A6E36F /* MapElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FAF916F3AAB600DE4508 /* NodeMapElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5AB153F0DA100A6E36F /* NodeMapElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FAFA16F3AAB600DE4508 /* PtrBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5AD153F0DA100A6E36F /* PtrBuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FAFB16F3AAB600DE4508 /* RuleMemo.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5AF153F0DA100A6E36F /* RuleMemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FAFC16F3AAB600DE4508 /* RuleStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5B1153F0DA100A6E36F /* RuleStack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FAFD16F3AAB600DE4508 /* SymbolStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5B3153F0DA100A6E36F /* SymbolStack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FAFE16F3AAB600DE4508 /* UniqueIDMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5B5153F0DA100A6E36F /* UniqueIDMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FAFF16F3AAB600DE4508 /* ANTLRFileStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A2BD16C133C06A6005C2AFB /* ANTLRFileStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB0016F3AAB600DE4508 /* BufferedTreeNodeStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5F5153F0E8700A6E36F /* BufferedTreeNodeStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB0116F3AAB600DE4508 /* CommonTreeNodeStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5F7153F0E8700A6E36F /* CommonTreeNodeStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB0216F3AAB600DE4508 /* RewriteRuleElementStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5F9153F0E8700A6E36F /* RewriteRuleElementStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB0316F3AAB600DE4508 /* RewriteRuleSubtreeStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5FD153F0E8700A6E36F /* RewriteRuleSubtreeStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB0416F3AAB600DE4508 /* RewriteRuleTokenStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5FF153F0E8700A6E36F /* RewriteRuleTokenStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB0516F3AAB600DE4508 /* TreeNodeStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A601153F0E8700A6E36F /* TreeNodeStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB0616F3AAB600DE4508 /* UnbufferedCommonTreeNodeStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A602153F0E8700A6E36F /* UnbufferedCommonTreeNodeStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB0716F3AAB600DE4508 /* UnbufferedCommonTreeNodeStreamState.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A604153F0E8700A6E36F /* UnbufferedCommonTreeNodeStreamState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB0816F3AAB600DE4508 /* BufferedTokenStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A617153F0EEB00A6E36F /* BufferedTokenStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB0916F3AAB600DE4508 /* CharStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A619153F0EEC00A6E36F /* CharStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB0A16F3AAB600DE4508 /* CommonTokenStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A61A153F0EEC00A6E36F /* CommonTokenStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB0B16F3AAB600DE4508 /* ANTLRInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A7381831312C3BE008CCA16 /* ANTLRInputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB0C16F3AAB600DE4508 /* IntStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A621153F0F0000A6E36F /* IntStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB0D16F3AAB600DE4508 /* LookaheadStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A622153F0F0000A6E36F /* LookaheadStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB0E16F3AAB600DE4508 /* ANTLRReaderStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A73817E1312C3AF008CCA16 /* ANTLRReaderStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB0F16F3AAB600DE4508 /* StreamEnumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A627153F0F1800A6E36F /* StreamEnumerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB1016F3AAB600DE4508 /* ANTLRStringStream.h in Headers */ = {isa = PBXBuildFile; fileRef = F70AA7C509AA339900C3FD5E /* ANTLRStringStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB1116F3AAB600DE4508 /* TokenSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A635153F0F6000A6E36F /* TokenSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB1216F3AAB600DE4508 /* TokenRewriteStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A62B153F0F4700A6E36F /* TokenRewriteStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB1316F3AAB600DE4508 /* TokenStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A62D153F0F4700A6E36F /* TokenStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB1416F3AAB600DE4508 /* UnbufferedTokenStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A62E153F0F4700A6E36F /* UnbufferedTokenStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB1516F3AAB600DE4508 /* RewriteRuleNodeStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A693153F129A00A6E36F /* RewriteRuleNodeStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB1616F3AAB600DE4508 /* Token.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A637153F0F7400A6E36F /* Token.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB1716F3AAB600DE4508 /* CommonToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A639153F0F7E00A6E36F /* CommonToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB1816F3AAB600DE4508 /* BaseTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A63D153F0FEF00A6E36F /* BaseTree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB1916F3AAB600DE4508 /* BaseTreeAdaptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A63F153F0FEF00A6E36F /* BaseTreeAdaptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB1A16F3AAB600DE4508 /* CharStreamState.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A641153F0FEF00A6E36F /* CharStreamState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB1B16F3AAB600DE4508 /* CommonTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A643153F0FEF00A6E36F /* CommonTree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB1C16F3AAB600DE4508 /* CommonTreeAdaptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A645153F0FEF00A6E36F /* CommonTreeAdaptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB1D16F3AAB600DE4508 /* Tree.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A647153F0FEF00A6E36F /* Tree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB1E16F3AAB600DE4508 /* TreeAdaptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A648153F0FEF00A6E36F /* TreeAdaptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB1F16F3AAB600DE4508 /* TreeIterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A649153F0FEF00A6E36F /* TreeIterator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB2016F3AAB600DE4508 /* TreePatternLexer.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A64B153F0FEF00A6E36F /* TreePatternLexer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB2116F3AAB600DE4508 /* TreePatternParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A64D153F0FEF00A6E36F /* TreePatternParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB2216F3AAB600DE4508 /* TreeRewriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A64F153F0FEF00A6E36F /* TreeRewriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB2316F3AAB600DE4508 /* TreeVisitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A651153F0FEF00A6E36F /* TreeVisitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB2416F3AAB600DE4508 /* TreeVisitorAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A653153F0FEF00A6E36F /* TreeVisitorAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB2516F3AAB600DE4508 /* TreeWizard.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A655153F0FEF00A6E36F /* TreeWizard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB2616F3AAD700DE4508 /* antlr3.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A3A09BD11E235BD00D5EE26 /* antlr3.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB2716F3AAD700DE4508 /* ANTLRError.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A1CCCC711B727B5002E5F53 /* ANTLRError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB2816F3AAD700DE4508 /* ANTLR.h in Headers */ = {isa = PBXBuildFile; fileRef = F70AA7A509AA2A6900C3FD5E /* ANTLR.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB2916F3AAD700DE4508 /* Debug.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A685153F117900A6E36F /* Debug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB2A16F3AB2C00DE4508 /* BaseRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5C9153F0DBA00A6E36F /* BaseRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB2B16F3AB2C00DE4508 /* Lexer.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5CD153F0DE200A6E36F /* Lexer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB2C16F3AB2C00DE4508 /* LexerRuleReturnScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5CF153F0DE200A6E36F /* LexerRuleReturnScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB2D16F3AB2C00DE4508 /* RecognizerSharedState.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5D1153F0DE200A6E36F /* RecognizerSharedState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB2E16F3AB2C00DE4508 /* Parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5D9153F0E0600A6E36F /* Parser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB2F16F3AB2C00DE4508 /* ParseTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5DB153F0E0600A6E36F /* ParseTree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB3016F3AB2C00DE4508 /* TreeParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5DD153F0E0700A6E36F /* TreeParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB3116F3AB3600DE4508 /* ParserRuleReturnScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5E5153F0E3900A6E36F /* ParserRuleReturnScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB3216F3AB3600DE4508 /* RuleMapElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5E7153F0E3900A6E36F /* RuleMapElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB3316F3AB3600DE4508 /* RuleReturnScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5E9153F0E3900A6E36F /* RuleReturnScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB3416F3AB3600DE4508 /* TreeRuleReturnScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A5EB153F0E3900A6E36F /* TreeRuleReturnScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C89FB3A16F3B05C00DE4508 /* DFA.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A54D153F0C8D00A6E36F /* DFA.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91F5A530153F0C4400A6E36F /* Token+DebuggerSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A52E153F0C4400A6E36F /* Token+DebuggerSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91F5A531153F0C4400A6E36F /* Token+DebuggerSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5A52F153F0C4400A6E36F /* Token+DebuggerSupport.m */; };
 		91F5A540153F0C7000A6E36F /* DebugEventListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5A533153F0C7000A6E36F /* DebugEventListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -851,10 +863,11 @@
 		7C2B6ABB16F258720039D918 /* LinkedHashMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedHashMap.m; sourceTree = "<group>"; };
 		7C2B6ABC16F258720039D918 /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
 		7C2B6ABD16F258720039D918 /* LinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedList.m; sourceTree = "<group>"; };
-		7CBEFAD716F25AB80057BEAF /* libANTLR-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libANTLR-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C89FA6216F3A9A000DE4508 /* ANTLR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ANTLR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C89FA6316F3A9A100DE4508 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		7C89FB3516F3ACA800DE4508 /* ANTLR-iOS-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ANTLR-iOS-Info.plist"; sourceTree = "<group>"; };
 		7CBEFAD916F25AB80057BEAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7CBEFB3F16F25BD00057BEAF /* ANTLR-iOS-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ANTLR-iOS-Prefix.pch"; sourceTree = "<group>"; };
-		7CBEFBAB16F264B20057BEAF /* ANTLR-iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ANTLR-iOS.h"; sourceTree = "<group>"; };
 		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8DC2EF5B0486A6940098B216 /* ANTLR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ANTLR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91F5A52E153F0C4400A6E36F /* Token+DebuggerSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Token+DebuggerSupport.h"; sourceTree = "<group>"; };
@@ -1218,11 +1231,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7CBEFAD416F25AB80057BEAF /* Frameworks */ = {
+		7C89FA5F16F3A9A000DE4508 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CBEFADA16F25AB80057BEAF /* Foundation.framework in Frameworks */,
+				7C89FA6416F3A9A100DE4508 /* CoreFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1343,7 +1356,7 @@
 				1A1212DC11D3F53600F27B38 /* ANTLRIntArrayTest.octest */,
 				1A12130C11D3F7CD00F27B38 /* ANTLRCommonTreeTest.octest */,
 				1A77EE8912E6A552007F323A /* TreeRewriteRuleTokenStream.octest */,
-				7CBEFAD716F25AB80057BEAF /* libANTLR-iOS.a */,
+				7C89FA6216F3A9A000DE4508 /* ANTLR.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1387,6 +1400,7 @@
 				1A1212DD11D3F53600F27B38 /* ANTLRIntArrayTest-Info.plist */,
 				1A12122511D3C92400F27B38 /* ANTLRFastQueueTest-Info.plist */,
 				1A1211D211D3BF4700F27B38 /* ANTLRStringStreamTest-Info.plist */,
+				7C89FB3516F3ACA800DE4508 /* ANTLR-iOS-Info.plist */,
 				8DC2EF5A0486A6940098B216 /* Info.plist */,
 				089C1666FE841158C02AAC07 /* InfoPlist.strings */,
 				1A348B4F11D2BEE8000C72FC /* Test-Info.plist */,
@@ -1575,7 +1589,6 @@
 				32DBCF5E0370ADEE00C91783 /* ANTLR_Prefix.pch */,
 				7CBEFB3F16F25BD00057BEAF /* ANTLR-iOS-Prefix.pch */,
 				F70AA7A509AA2A6900C3FD5E /* ANTLR.h */,
-				7CBEFBAB16F264B20057BEAF /* ANTLR-iOS.h */,
 				91F5A685153F117900A6E36F /* Debug.h */,
 			);
 			name = "Other Sources";
@@ -1585,6 +1598,7 @@
 			isa = PBXGroup;
 			children = (
 				7CBEFAD916F25AB80057BEAF /* Foundation.framework */,
+				7C89FA6316F3A9A100DE4508 /* CoreFoundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1981,111 +1995,112 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7CBEFBAC16F2656B0057BEAF /* Headers */ = {
+		7C89FACF16F3AAA300DE4508 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CBEFBAD16F2659B0057BEAF /* Token+DebuggerSupport.h in Headers */,
-				7CBEFBAE16F2659B0057BEAF /* DebugEventListener.h in Headers */,
-				7CBEFBAF16F2659B0057BEAF /* DebugEventSocketProxy.h in Headers */,
-				7CBEFBB016F2659B0057BEAF /* DebugParser.h in Headers */,
-				7CBEFBB116F2659B0057BEAF /* DebugTokenStream.h in Headers */,
-				7CBEFBB216F2659B0057BEAF /* DebugTreeAdaptor.h in Headers */,
-				7CBEFBB316F2659B0057BEAF /* DebugTreeNodeStream.h in Headers */,
-				7CBEFBB416F2659B0057BEAF /* DebugTreeParser.h in Headers */,
-				7CBEFBB516F2659B0057BEAF /* DFA.h in Headers */,
-				7CBEFBB616F2659B0057BEAF /* EarlyExitException.h in Headers */,
-				7CBEFBB716F2659B0057BEAF /* FailedPredicateException.h in Headers */,
-				7CBEFBB816F2659B0057BEAF /* MismatchedNotSetException.h in Headers */,
-				7CBEFBB916F2659B0057BEAF /* MismatchedRangeException.h in Headers */,
-				7CBEFBBA16F2659B0057BEAF /* MismatchedSetException.h in Headers */,
-				7CBEFBBB16F2659B0057BEAF /* MismatchedTokenException.h in Headers */,
-				7CBEFBBC16F2659B0057BEAF /* MismatchedTreeNodeException.h in Headers */,
-				7CBEFBBD16F2659B0057BEAF /* MissingTokenException.h in Headers */,
-				7CBEFBBE16F2659B0057BEAF /* NoViableAltException.h in Headers */,
-				7CBEFBBF16F2659B0057BEAF /* RecognitionException.h in Headers */,
-				7CBEFBC016F2659B0057BEAF /* RuntimeException.h in Headers */,
-				7CBEFBC116F2659B0057BEAF /* TreeException.h in Headers */,
-				7CBEFBC216F2659B0057BEAF /* UnwantedTokenException.h in Headers */,
-				7CBEFBC316F2659B0057BEAF /* ACNumber.h in Headers */,
-				7CBEFBC416F2659B0057BEAF /* Entry.h in Headers */,
-				7CBEFBC516F2659B0057BEAF /* LinkedHashMap.h in Headers */,
-				7CBEFBC616F2659B0057BEAF /* LinkedList.h in Headers */,
-				7CBEFBC716F2659B0057BEAF /* ACBTree.h in Headers */,
-				7CBEFBC816F2659B0057BEAF /* AMutableArray.h in Headers */,
-				7CBEFBC916F2659B0057BEAF /* AMutableDictionary.h in Headers */,
-				7CBEFBCA16F2659B0057BEAF /* ArrayIterator.h in Headers */,
-				7CBEFBCB16F2659B0057BEAF /* BaseMapElement.h in Headers */,
-				7CBEFBCC16F2659B0057BEAF /* BaseStack.h in Headers */,
-				7CBEFBCD16F2659B0057BEAF /* ANTLRBitSet.h in Headers */,
-				7CBEFBCE16F2659B0057BEAF /* CommonErrorNode.h in Headers */,
-				7CBEFBCF16F2659B0057BEAF /* DoubleKeyMap.h in Headers */,
-				7CBEFBD016F2659B0057BEAF /* FastQueue.h in Headers */,
-				7CBEFBD116F2659B0057BEAF /* HashMap.h in Headers */,
-				7CBEFBD216F2659B0057BEAF /* HashRule.h in Headers */,
-				7CBEFBD316F2659B0057BEAF /* IntArray.h in Headers */,
-				7CBEFBD416F2659B0057BEAF /* LinkBase.h in Headers */,
-				7CBEFBD516F2659B0057BEAF /* Map.h in Headers */,
-				7CBEFBD616F2659B0057BEAF /* MapElement.h in Headers */,
-				7CBEFBD716F2659B0057BEAF /* NodeMapElement.h in Headers */,
-				7CBEFBD816F2659B0057BEAF /* PtrBuffer.h in Headers */,
-				7CBEFBD916F2659B0057BEAF /* RuleMemo.h in Headers */,
-				7CBEFBDA16F2659B0057BEAF /* RuleStack.h in Headers */,
-				7CBEFBDB16F2659B0057BEAF /* SymbolStack.h in Headers */,
-				7CBEFBDC16F2659B0057BEAF /* UniqueIDMap.h in Headers */,
-				7CBEFBDD16F2659B0057BEAF /* BaseRecognizer.h in Headers */,
-				7CBEFBDE16F2659B0057BEAF /* Lexer.h in Headers */,
-				7CBEFBDF16F2659B0057BEAF /* LexerRuleReturnScope.h in Headers */,
-				7CBEFBE016F2659B0057BEAF /* RecognizerSharedState.h in Headers */,
-				7CBEFBE116F2659B0057BEAF /* Parser.h in Headers */,
-				7CBEFBE216F2659B0057BEAF /* ParseTree.h in Headers */,
-				7CBEFBE316F2659B0057BEAF /* TreeParser.h in Headers */,
-				7CBEFBE416F2659B0057BEAF /* ParserRuleReturnScope.h in Headers */,
-				7CBEFBE516F2659B0057BEAF /* RuleMapElement.h in Headers */,
-				7CBEFBE616F2659B0057BEAF /* RuleReturnScope.h in Headers */,
-				7CBEFBE716F2659B0057BEAF /* TreeRuleReturnScope.h in Headers */,
-				7CBEFBE816F2659B0057BEAF /* ANTLRFileStream.h in Headers */,
-				7CBEFBE916F2659B0057BEAF /* BufferedTreeNodeStream.h in Headers */,
-				7CBEFBEA16F2659B0057BEAF /* CommonTreeNodeStream.h in Headers */,
-				7CBEFBEB16F2659B0057BEAF /* RewriteRuleElementStream.h in Headers */,
-				7CBEFBEC16F2659B0057BEAF /* RewriteRuleSubtreeStream.h in Headers */,
-				7CBEFBED16F2659B0057BEAF /* RewriteRuleTokenStream.h in Headers */,
-				7CBEFBEE16F2659B0057BEAF /* TreeNodeStream.h in Headers */,
-				7CBEFBEF16F2659B0057BEAF /* UnbufferedCommonTreeNodeStream.h in Headers */,
-				7CBEFBF016F2659B0057BEAF /* UnbufferedCommonTreeNodeStreamState.h in Headers */,
-				7CBEFBF116F2659B0057BEAF /* BufferedTokenStream.h in Headers */,
-				7CBEFBF216F2659B0057BEAF /* CharStream.h in Headers */,
-				7CBEFBF316F2659B0057BEAF /* CommonTokenStream.h in Headers */,
-				7CBEFBF416F2659B0057BEAF /* ANTLRInputStream.h in Headers */,
-				7CBEFBF516F2659B0057BEAF /* IntStream.h in Headers */,
-				7CBEFBF616F2659B0057BEAF /* LookaheadStream.h in Headers */,
-				7CBEFBF716F2659B0057BEAF /* ANTLRReaderStream.h in Headers */,
-				7CBEFBF816F2659B0057BEAF /* StreamEnumerator.h in Headers */,
-				7CBEFBF916F2659B0057BEAF /* ANTLRStringStream.h in Headers */,
-				7CBEFBFA16F2659B0057BEAF /* TokenSource.h in Headers */,
-				7CBEFBFB16F2659B0057BEAF /* TokenRewriteStream.h in Headers */,
-				7CBEFBFC16F2659B0057BEAF /* TokenStream.h in Headers */,
-				7CBEFBFD16F2659B0057BEAF /* UnbufferedTokenStream.h in Headers */,
-				7CBEFBFE16F2659B0057BEAF /* RewriteRuleNodeStream.h in Headers */,
-				7CBEFBFF16F2659B0057BEAF /* Token.h in Headers */,
-				7CBEFC0016F2659B0057BEAF /* CommonToken.h in Headers */,
-				7CBEFC0116F2659B0057BEAF /* BaseTree.h in Headers */,
-				7CBEFC0216F2659B0057BEAF /* BaseTreeAdaptor.h in Headers */,
-				7CBEFC0316F2659B0057BEAF /* CharStreamState.h in Headers */,
-				7CBEFC0416F2659B0057BEAF /* CommonTree.h in Headers */,
-				7CBEFC0516F2659B0057BEAF /* CommonTreeAdaptor.h in Headers */,
-				7CBEFC0616F2659B0057BEAF /* Tree.h in Headers */,
-				7CBEFC0716F2659B0057BEAF /* TreeAdaptor.h in Headers */,
-				7CBEFC0816F2659B0057BEAF /* TreeIterator.h in Headers */,
-				7CBEFC0916F2659B0057BEAF /* TreePatternLexer.h in Headers */,
-				7CBEFC0A16F2659B0057BEAF /* TreePatternParser.h in Headers */,
-				7CBEFC0B16F2659B0057BEAF /* TreeRewriter.h in Headers */,
-				7CBEFC0C16F2659B0057BEAF /* TreeVisitor.h in Headers */,
-				7CBEFC0D16F2659B0057BEAF /* TreeVisitorAction.h in Headers */,
-				7CBEFC0E16F2659B0057BEAF /* TreeWizard.h in Headers */,
-				7CBEFC0F16F266C00057BEAF /* ANTLR-iOS.h in Headers */,
-				7CBEFC1016F266C70057BEAF /* Debug.h in Headers */,
-				7CBEFC1116F266D90057BEAF /* ANTLRError.h in Headers */,
+				7C89FAD016F3AAB500DE4508 /* Token+DebuggerSupport.h in Headers */,
+				7C89FAD116F3AAB600DE4508 /* DebugEventListener.h in Headers */,
+				7C89FAD216F3AAB600DE4508 /* DebugEventSocketProxy.h in Headers */,
+				7C89FAD316F3AAB600DE4508 /* DebugParser.h in Headers */,
+				7C89FAD416F3AAB600DE4508 /* DebugTokenStream.h in Headers */,
+				7C89FAD516F3AAB600DE4508 /* DebugTreeAdaptor.h in Headers */,
+				7C89FAD616F3AAB600DE4508 /* DebugTreeNodeStream.h in Headers */,
+				7C89FAD716F3AAB600DE4508 /* DebugTreeParser.h in Headers */,
+				7C89FAD816F3AAB600DE4508 /* EarlyExitException.h in Headers */,
+				7C89FAD916F3AAB600DE4508 /* FailedPredicateException.h in Headers */,
+				7C89FADA16F3AAB600DE4508 /* MismatchedNotSetException.h in Headers */,
+				7C89FADB16F3AAB600DE4508 /* MismatchedRangeException.h in Headers */,
+				7C89FADC16F3AAB600DE4508 /* MismatchedSetException.h in Headers */,
+				7C89FADD16F3AAB600DE4508 /* MismatchedTokenException.h in Headers */,
+				7C89FADE16F3AAB600DE4508 /* MismatchedTreeNodeException.h in Headers */,
+				7C89FADF16F3AAB600DE4508 /* MissingTokenException.h in Headers */,
+				7C89FAE016F3AAB600DE4508 /* NoViableAltException.h in Headers */,
+				7C89FAE116F3AAB600DE4508 /* RecognitionException.h in Headers */,
+				7C89FAE216F3AAB600DE4508 /* RuntimeException.h in Headers */,
+				7C89FAE316F3AAB600DE4508 /* TreeException.h in Headers */,
+				7C89FAE416F3AAB600DE4508 /* UnwantedTokenException.h in Headers */,
+				7C89FAE516F3AAB600DE4508 /* ACNumber.h in Headers */,
+				7C89FAE616F3AAB600DE4508 /* Entry.h in Headers */,
+				7C89FAE716F3AAB600DE4508 /* LinkedHashMap.h in Headers */,
+				7C89FAE816F3AAB600DE4508 /* LinkedList.h in Headers */,
+				7C89FAE916F3AAB600DE4508 /* ACBTree.h in Headers */,
+				7C89FAEA16F3AAB600DE4508 /* AMutableArray.h in Headers */,
+				7C89FAEB16F3AAB600DE4508 /* AMutableDictionary.h in Headers */,
+				7C89FAEC16F3AAB600DE4508 /* ArrayIterator.h in Headers */,
+				7C89FAED16F3AAB600DE4508 /* BaseMapElement.h in Headers */,
+				7C89FAEE16F3AAB600DE4508 /* BaseStack.h in Headers */,
+				7C89FAEF16F3AAB600DE4508 /* ANTLRBitSet.h in Headers */,
+				7C89FAF016F3AAB600DE4508 /* CommonErrorNode.h in Headers */,
+				7C89FAF116F3AAB600DE4508 /* DoubleKeyMap.h in Headers */,
+				7C89FAF216F3AAB600DE4508 /* FastQueue.h in Headers */,
+				7C89FAF316F3AAB600DE4508 /* HashMap.h in Headers */,
+				7C89FAF416F3AAB600DE4508 /* HashRule.h in Headers */,
+				7C89FAF516F3AAB600DE4508 /* IntArray.h in Headers */,
+				7C89FAF616F3AAB600DE4508 /* LinkBase.h in Headers */,
+				7C89FAF716F3AAB600DE4508 /* Map.h in Headers */,
+				7C89FAF816F3AAB600DE4508 /* MapElement.h in Headers */,
+				7C89FAF916F3AAB600DE4508 /* NodeMapElement.h in Headers */,
+				7C89FAFA16F3AAB600DE4508 /* PtrBuffer.h in Headers */,
+				7C89FAFB16F3AAB600DE4508 /* RuleMemo.h in Headers */,
+				7C89FAFC16F3AAB600DE4508 /* RuleStack.h in Headers */,
+				7C89FAFD16F3AAB600DE4508 /* SymbolStack.h in Headers */,
+				7C89FAFE16F3AAB600DE4508 /* UniqueIDMap.h in Headers */,
+				7C89FAFF16F3AAB600DE4508 /* ANTLRFileStream.h in Headers */,
+				7C89FB0016F3AAB600DE4508 /* BufferedTreeNodeStream.h in Headers */,
+				7C89FB0116F3AAB600DE4508 /* CommonTreeNodeStream.h in Headers */,
+				7C89FB0216F3AAB600DE4508 /* RewriteRuleElementStream.h in Headers */,
+				7C89FB0316F3AAB600DE4508 /* RewriteRuleSubtreeStream.h in Headers */,
+				7C89FB0416F3AAB600DE4508 /* RewriteRuleTokenStream.h in Headers */,
+				7C89FB0516F3AAB600DE4508 /* TreeNodeStream.h in Headers */,
+				7C89FB0616F3AAB600DE4508 /* UnbufferedCommonTreeNodeStream.h in Headers */,
+				7C89FB0716F3AAB600DE4508 /* UnbufferedCommonTreeNodeStreamState.h in Headers */,
+				7C89FB0816F3AAB600DE4508 /* BufferedTokenStream.h in Headers */,
+				7C89FB0916F3AAB600DE4508 /* CharStream.h in Headers */,
+				7C89FB0A16F3AAB600DE4508 /* CommonTokenStream.h in Headers */,
+				7C89FB0B16F3AAB600DE4508 /* ANTLRInputStream.h in Headers */,
+				7C89FB0C16F3AAB600DE4508 /* IntStream.h in Headers */,
+				7C89FB0D16F3AAB600DE4508 /* LookaheadStream.h in Headers */,
+				7C89FB0E16F3AAB600DE4508 /* ANTLRReaderStream.h in Headers */,
+				7C89FB0F16F3AAB600DE4508 /* StreamEnumerator.h in Headers */,
+				7C89FB1016F3AAB600DE4508 /* ANTLRStringStream.h in Headers */,
+				7C89FB1116F3AAB600DE4508 /* TokenSource.h in Headers */,
+				7C89FB1216F3AAB600DE4508 /* TokenRewriteStream.h in Headers */,
+				7C89FB1316F3AAB600DE4508 /* TokenStream.h in Headers */,
+				7C89FB1416F3AAB600DE4508 /* UnbufferedTokenStream.h in Headers */,
+				7C89FB1516F3AAB600DE4508 /* RewriteRuleNodeStream.h in Headers */,
+				7C89FB1616F3AAB600DE4508 /* Token.h in Headers */,
+				7C89FB1716F3AAB600DE4508 /* CommonToken.h in Headers */,
+				7C89FB1816F3AAB600DE4508 /* BaseTree.h in Headers */,
+				7C89FB1916F3AAB600DE4508 /* BaseTreeAdaptor.h in Headers */,
+				7C89FB1A16F3AAB600DE4508 /* CharStreamState.h in Headers */,
+				7C89FB1B16F3AAB600DE4508 /* CommonTree.h in Headers */,
+				7C89FB1C16F3AAB600DE4508 /* CommonTreeAdaptor.h in Headers */,
+				7C89FB1D16F3AAB600DE4508 /* Tree.h in Headers */,
+				7C89FB1E16F3AAB600DE4508 /* TreeAdaptor.h in Headers */,
+				7C89FB1F16F3AAB600DE4508 /* TreeIterator.h in Headers */,
+				7C89FB2016F3AAB600DE4508 /* TreePatternLexer.h in Headers */,
+				7C89FB2116F3AAB600DE4508 /* TreePatternParser.h in Headers */,
+				7C89FB2216F3AAB600DE4508 /* TreeRewriter.h in Headers */,
+				7C89FB2316F3AAB600DE4508 /* TreeVisitor.h in Headers */,
+				7C89FB2416F3AAB600DE4508 /* TreeVisitorAction.h in Headers */,
+				7C89FB2516F3AAB600DE4508 /* TreeWizard.h in Headers */,
+				7C89FB2616F3AAD700DE4508 /* antlr3.h in Headers */,
+				7C89FB2716F3AAD700DE4508 /* ANTLRError.h in Headers */,
+				7C89FB2816F3AAD700DE4508 /* ANTLR.h in Headers */,
+				7C89FB2916F3AAD700DE4508 /* Debug.h in Headers */,
+				7C89FB2A16F3AB2C00DE4508 /* BaseRecognizer.h in Headers */,
+				7C89FB2B16F3AB2C00DE4508 /* Lexer.h in Headers */,
+				7C89FB2C16F3AB2C00DE4508 /* LexerRuleReturnScope.h in Headers */,
+				7C89FB2D16F3AB2C00DE4508 /* RecognizerSharedState.h in Headers */,
+				7C89FB2E16F3AB2C00DE4508 /* Parser.h in Headers */,
+				7C89FB2F16F3AB2C00DE4508 /* ParseTree.h in Headers */,
+				7C89FB3016F3AB2C00DE4508 /* TreeParser.h in Headers */,
+				7C89FB3116F3AB3600DE4508 /* ParserRuleReturnScope.h in Headers */,
+				7C89FB3216F3AB3600DE4508 /* RuleMapElement.h in Headers */,
+				7C89FB3316F3AB3600DE4508 /* RuleReturnScope.h in Headers */,
+				7C89FB3416F3AB3600DE4508 /* TreeRuleReturnScope.h in Headers */,
+				7C89FB3A16F3B05C00DE4508 /* DFA.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2542,13 +2557,14 @@
 			productReference = 1AC5ACA712E7BEFE00DF0C58 /* treeparser */;
 			productType = "com.apple.product-type.tool";
 		};
-		7CBEFAD616F25AB80057BEAF /* ANTLR-iOS */ = {
+		7C89FA6116F3A9A000DE4508 /* ANTLR-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7CBEFAE516F25AB80057BEAF /* Build configuration list for PBXNativeTarget "ANTLR-iOS" */;
+			buildConfigurationList = 7C89FA6C16F3A9A100DE4508 /* Build configuration list for PBXNativeTarget "ANTLR-iOS" */;
 			buildPhases = (
-				7CBEFAD316F25AB80057BEAF /* Sources */,
-				7CBEFAD416F25AB80057BEAF /* Frameworks */,
-				7CBEFBAC16F2656B0057BEAF /* Headers */,
+				7C89FA5E16F3A9A000DE4508 /* Sources */,
+				7C89FA5F16F3A9A000DE4508 /* Frameworks */,
+				7C89FA6016F3A9A000DE4508 /* Resources */,
+				7C89FACF16F3AAA300DE4508 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -2556,8 +2572,8 @@
 			);
 			name = "ANTLR-iOS";
 			productName = "ANTLR-iOS";
-			productReference = 7CBEFAD716F25AB80057BEAF /* libANTLR-iOS.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 7C89FA6216F3A9A000DE4508 /* ANTLR.framework */;
+			productType = "com.apple.product-type.bundle";
 		};
 		8DC2EF4F0486A6940098B216 /* ANTLR */ = {
 			isa = PBXNativeTarget;
@@ -2729,6 +2745,7 @@
 				Japanese,
 				French,
 				German,
+				en,
 			);
 			mainGroup = 0867D691FE84028FC02AAC07 /* ANTLR */;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
@@ -2736,7 +2753,8 @@
 			projectRoot = "";
 			targets = (
 				8DC2EF4F0486A6940098B216 /* ANTLR */,
-				7CBEFAD616F25AB80057BEAF /* ANTLR-iOS */,
+				7C89FA6116F3A9A000DE4508 /* ANTLR-iOS */,
+				7C89FA7016F3AA3900DE4508 /* ANTLR-iOS-Aggregate */,
 				1A348B4D11D2BEE8000C72FC /* Test */,
 				1A348BEB11D2D0A1000C72FC /* ANTLRBitsetTest */,
 				1A1210FA11D3A5D900F27B38 /* ANTLRCommonTokenTest */,
@@ -2822,6 +2840,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1A77EE8412E6A552007F323A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C89FA6016F3A9A000DE4508 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2948,6 +2973,19 @@
 			shellPath = /bin/sh;
 			shellScript = "";
 		};
+		7C89FA7516F3AA4600DE4508 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Sets the target folders and the final framework product.\nFMK_NAME=ANTLR\nTARGET_NAME=ANTLR-iOS\nFMK_VERSION=A\n\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nINSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\n\n# Working dir will be deleted after the framework creation.\nWRK_DIR=build\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n\n# Building both architectures.\nxcodebuild -configuration \"Release\" -target \"${TARGET_NAME}\" -sdk iphoneos\nxcodebuild -configuration \"Release\" -target \"${TARGET_NAME}\" -sdk iphonesimulator\n\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\n\n# Creates and renews the final product folder.\nmkdir -p \"${INSTALL_DIR}\"\nmkdir -p \"${INSTALL_DIR}/Versions\"\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}\"\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources\"\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Headers\"\n\n# Creates the internal links.\n# It MUST uses relative path, otherwise will not work when the folder is copied/moved.\nln -s \"${FMK_VERSION}\" \"${INSTALL_DIR}/Versions/Current\"\nln -s \"Versions/Current/Headers\" \"${INSTALL_DIR}/Headers\"\nln -s \"Versions/Current/Resources\" \"${INSTALL_DIR}/Resources\"\nln -s \"Versions/Current/${FMK_NAME}\" \"${INSTALL_DIR}/${FMK_NAME}\"\n\n# Copies the headers and resources files to the final product folder.\ncp -R \"${DEVICE_DIR}/Headers/\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Headers/\"\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/\"\n\n# Removes the binary and header from the resources folder.\nrm -r \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/Headers\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/${FMK_NAME}\"\n\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/Versions/${FMK_VERSION}/${FMK_NAME}\"\n\nrm -r \"${WRK_DIR}\"\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -3040,99 +3078,99 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7CBEFAD316F25AB80057BEAF /* Sources */ = {
+		7C89FA5E16F3A9A000DE4508 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CBEFAE616F25B590057BEAF /* Token+DebuggerSupport.m in Sources */,
-				7CBEFAE716F25B590057BEAF /* DebugEventSocketProxy.m in Sources */,
-				7CBEFAE816F25B590057BEAF /* DebugParser.m in Sources */,
-				7CBEFAE916F25B590057BEAF /* DebugTokenStream.m in Sources */,
-				7CBEFAEA16F25B590057BEAF /* DebugTreeAdaptor.m in Sources */,
-				7CBEFAEB16F25B590057BEAF /* DebugTreeNodeStream.m in Sources */,
-				7CBEFAEC16F25B590057BEAF /* DebugTreeParser.m in Sources */,
-				7CBEFAED16F25B590057BEAF /* DFA.m in Sources */,
-				7CBEFAEE16F25B590057BEAF /* EarlyExitException.m in Sources */,
-				7CBEFAEF16F25B590057BEAF /* FailedPredicateException.m in Sources */,
-				7CBEFAF016F25B590057BEAF /* MismatchedNotSetException.m in Sources */,
-				7CBEFAF116F25B590057BEAF /* MismatchedRangeException.m in Sources */,
-				7CBEFAF216F25B590057BEAF /* MismatchedSetException.m in Sources */,
-				7CBEFAF316F25B590057BEAF /* MismatchedTokenException.m in Sources */,
-				7CBEFAF416F25B590057BEAF /* MismatchedTreeNodeException.m in Sources */,
-				7CBEFAF516F25B590057BEAF /* MissingTokenException.m in Sources */,
-				7CBEFAF616F25B590057BEAF /* NoViableAltException.m in Sources */,
-				7CBEFAF716F25B590057BEAF /* RecognitionException.m in Sources */,
-				7CBEFAF816F25B590057BEAF /* RuntimeException.m in Sources */,
-				7CBEFAF916F25B590057BEAF /* TreeException.m in Sources */,
-				7CBEFAFA16F25B590057BEAF /* UnwantedTokenException.m in Sources */,
-				7CBEFAFB16F25B590057BEAF /* ACNumber.m in Sources */,
-				7CBEFAFC16F25B590057BEAF /* Entry.m in Sources */,
-				7CBEFAFD16F25B590057BEAF /* LinkedHashMap.m in Sources */,
-				7CBEFAFE16F25B590057BEAF /* LinkedList.m in Sources */,
-				7CBEFAFF16F25B590057BEAF /* ACBTree.m in Sources */,
-				7CBEFB0016F25B590057BEAF /* AMutableArray.m in Sources */,
-				7CBEFB0116F25B590057BEAF /* AMutableDictionary.m in Sources */,
-				7CBEFB0216F25B590057BEAF /* ArrayIterator.m in Sources */,
-				7CBEFB0316F25B590057BEAF /* BaseMapElement.m in Sources */,
-				7CBEFB0416F25B590057BEAF /* BaseStack.m in Sources */,
-				7CBEFB0516F25B590057BEAF /* ANTLRBitSet.m in Sources */,
-				7CBEFB0616F25B590057BEAF /* CommonErrorNode.m in Sources */,
-				7CBEFB0716F25B590057BEAF /* DoubleKeyMap.m in Sources */,
-				7CBEFB0816F25B590057BEAF /* FastQueue.m in Sources */,
-				7CBEFB0916F25B590057BEAF /* HashMap.m in Sources */,
-				7CBEFB0A16F25B590057BEAF /* HashRule.m in Sources */,
-				7CBEFB0B16F25B590057BEAF /* IntArray.m in Sources */,
-				7CBEFB0C16F25B590057BEAF /* LinkBase.m in Sources */,
-				7CBEFB0D16F25B590057BEAF /* Map.m in Sources */,
-				7CBEFB0E16F25B590057BEAF /* MapElement.m in Sources */,
-				7CBEFB0F16F25B590057BEAF /* NodeMapElement.m in Sources */,
-				7CBEFB1016F25B590057BEAF /* PtrBuffer.m in Sources */,
-				7CBEFB1116F25B590057BEAF /* RuleMemo.m in Sources */,
-				7CBEFB1216F25B590057BEAF /* RuleStack.m in Sources */,
-				7CBEFB1316F25B590057BEAF /* SymbolStack.m in Sources */,
-				7CBEFB1416F25B590057BEAF /* UniqueIDMap.m in Sources */,
-				7CBEFB1516F25B590057BEAF /* BaseRecognizer.m in Sources */,
-				7CBEFB1616F25B590057BEAF /* Lexer.m in Sources */,
-				7CBEFB1716F25B590057BEAF /* LexerRuleReturnScope.m in Sources */,
-				7CBEFB1816F25B590057BEAF /* RecognizerSharedState.m in Sources */,
-				7CBEFB1916F25B590057BEAF /* Parser.m in Sources */,
-				7CBEFB1A16F25B590057BEAF /* ParseTree.m in Sources */,
-				7CBEFB1B16F25B590057BEAF /* TreeParser.m in Sources */,
-				7CBEFB1C16F25B590057BEAF /* ParserRuleReturnScope.m in Sources */,
-				7CBEFB1D16F25B590057BEAF /* RuleMapElement.m in Sources */,
-				7CBEFB1E16F25B590057BEAF /* RuleReturnScope.m in Sources */,
-				7CBEFB1F16F25B590057BEAF /* TreeRuleReturnScope.m in Sources */,
-				7CBEFB2016F25B590057BEAF /* ANTLRFileStream.m in Sources */,
-				7CBEFB2116F25B590057BEAF /* BufferedTreeNodeStream.m in Sources */,
-				7CBEFB2216F25B590057BEAF /* CommonTreeNodeStream.m in Sources */,
-				7CBEFB2316F25B590057BEAF /* RewriteRuleElementStream.m in Sources */,
-				7CBEFB2416F25B590057BEAF /* RewriteRuleSubtreeStream.m in Sources */,
-				7CBEFB2516F25B590057BEAF /* RewriteRuleTokenStream.m in Sources */,
-				7CBEFB2616F25B590057BEAF /* UnbufferedCommonTreeNodeStream.m in Sources */,
-				7CBEFB2716F25B590057BEAF /* UnbufferedCommonTreeNodeStreamState.m in Sources */,
-				7CBEFB2816F25B590057BEAF /* BufferedTokenStream.m in Sources */,
-				7CBEFB2916F25B590057BEAF /* CommonTokenStream.m in Sources */,
-				7CBEFB2A16F25B590057BEAF /* ANTLRInputStream.m in Sources */,
-				7CBEFB2B16F25B590057BEAF /* LookaheadStream.m in Sources */,
-				7CBEFB2C16F25B590057BEAF /* ANTLRReaderStream.m in Sources */,
-				7CBEFB2D16F25B590057BEAF /* StreamEnumerator.m in Sources */,
-				7CBEFB2E16F25B590057BEAF /* ANTLRStringStream.m in Sources */,
-				7CBEFB2F16F25B590057BEAF /* TokenRewriteStream.m in Sources */,
-				7CBEFB3016F25B590057BEAF /* UnbufferedTokenStream.m in Sources */,
-				7CBEFB3116F25B590057BEAF /* RewriteRuleNodeStream.m in Sources */,
-				7CBEFB3216F25B590057BEAF /* CommonToken.m in Sources */,
-				7CBEFB3316F25B590057BEAF /* BaseTree.m in Sources */,
-				7CBEFB3416F25B590057BEAF /* BaseTreeAdaptor.m in Sources */,
-				7CBEFB3516F25B590057BEAF /* CharStreamState.m in Sources */,
-				7CBEFB3616F25B590057BEAF /* CommonTree.m in Sources */,
-				7CBEFB3716F25B590057BEAF /* CommonTreeAdaptor.m in Sources */,
-				7CBEFB3816F25B590057BEAF /* TreeIterator.m in Sources */,
-				7CBEFB3916F25B590057BEAF /* TreePatternLexer.m in Sources */,
-				7CBEFB3A16F25B590057BEAF /* TreePatternParser.m in Sources */,
-				7CBEFB3B16F25B590057BEAF /* TreeRewriter.m in Sources */,
-				7CBEFB3C16F25B590057BEAF /* TreeVisitor.m in Sources */,
-				7CBEFB3D16F25B590057BEAF /* TreeVisitorAction.m in Sources */,
-				7CBEFB3E16F25B590057BEAF /* TreeWizard.m in Sources */,
+				7C89FA7616F3AA8800DE4508 /* Token+DebuggerSupport.m in Sources */,
+				7C89FA7716F3AA8800DE4508 /* DebugEventSocketProxy.m in Sources */,
+				7C89FA7816F3AA8800DE4508 /* DebugParser.m in Sources */,
+				7C89FA7916F3AA8800DE4508 /* DebugTokenStream.m in Sources */,
+				7C89FA7A16F3AA8800DE4508 /* DebugTreeAdaptor.m in Sources */,
+				7C89FA7B16F3AA8800DE4508 /* DebugTreeNodeStream.m in Sources */,
+				7C89FA7C16F3AA8800DE4508 /* DebugTreeParser.m in Sources */,
+				7C89FA7D16F3AA8800DE4508 /* DFA.m in Sources */,
+				7C89FA7E16F3AA8800DE4508 /* EarlyExitException.m in Sources */,
+				7C89FA7F16F3AA8800DE4508 /* FailedPredicateException.m in Sources */,
+				7C89FA8016F3AA8800DE4508 /* MismatchedNotSetException.m in Sources */,
+				7C89FA8116F3AA8800DE4508 /* MismatchedRangeException.m in Sources */,
+				7C89FA8216F3AA8800DE4508 /* MismatchedSetException.m in Sources */,
+				7C89FA8316F3AA8800DE4508 /* MismatchedTokenException.m in Sources */,
+				7C89FA8416F3AA8800DE4508 /* MismatchedTreeNodeException.m in Sources */,
+				7C89FA8516F3AA8800DE4508 /* MissingTokenException.m in Sources */,
+				7C89FA8616F3AA8800DE4508 /* NoViableAltException.m in Sources */,
+				7C89FA8716F3AA8800DE4508 /* RecognitionException.m in Sources */,
+				7C89FA8816F3AA8800DE4508 /* RuntimeException.m in Sources */,
+				7C89FA8916F3AA8800DE4508 /* TreeException.m in Sources */,
+				7C89FA8A16F3AA8800DE4508 /* UnwantedTokenException.m in Sources */,
+				7C89FA8B16F3AA8800DE4508 /* ACNumber.m in Sources */,
+				7C89FA8C16F3AA8800DE4508 /* Entry.m in Sources */,
+				7C89FA8D16F3AA8800DE4508 /* LinkedHashMap.m in Sources */,
+				7C89FA8E16F3AA8800DE4508 /* LinkedList.m in Sources */,
+				7C89FA8F16F3AA8800DE4508 /* ACBTree.m in Sources */,
+				7C89FA9016F3AA8800DE4508 /* AMutableArray.m in Sources */,
+				7C89FA9116F3AA8800DE4508 /* AMutableDictionary.m in Sources */,
+				7C89FA9216F3AA8800DE4508 /* ArrayIterator.m in Sources */,
+				7C89FA9316F3AA8800DE4508 /* BaseMapElement.m in Sources */,
+				7C89FA9416F3AA8800DE4508 /* BaseStack.m in Sources */,
+				7C89FA9516F3AA8800DE4508 /* ANTLRBitSet.m in Sources */,
+				7C89FA9616F3AA8800DE4508 /* CommonErrorNode.m in Sources */,
+				7C89FA9716F3AA8800DE4508 /* DoubleKeyMap.m in Sources */,
+				7C89FA9816F3AA8800DE4508 /* FastQueue.m in Sources */,
+				7C89FA9916F3AA8800DE4508 /* HashMap.m in Sources */,
+				7C89FA9A16F3AA8800DE4508 /* HashRule.m in Sources */,
+				7C89FA9B16F3AA8800DE4508 /* IntArray.m in Sources */,
+				7C89FA9C16F3AA8800DE4508 /* LinkBase.m in Sources */,
+				7C89FA9D16F3AA8800DE4508 /* Map.m in Sources */,
+				7C89FA9E16F3AA8800DE4508 /* MapElement.m in Sources */,
+				7C89FA9F16F3AA8800DE4508 /* NodeMapElement.m in Sources */,
+				7C89FAA016F3AA8800DE4508 /* PtrBuffer.m in Sources */,
+				7C89FAA116F3AA8800DE4508 /* RuleMemo.m in Sources */,
+				7C89FAA216F3AA8800DE4508 /* RuleStack.m in Sources */,
+				7C89FAA316F3AA8800DE4508 /* SymbolStack.m in Sources */,
+				7C89FAA416F3AA8800DE4508 /* UniqueIDMap.m in Sources */,
+				7C89FAA516F3AA8800DE4508 /* BaseRecognizer.m in Sources */,
+				7C89FAA616F3AA8800DE4508 /* Lexer.m in Sources */,
+				7C89FAA716F3AA8800DE4508 /* LexerRuleReturnScope.m in Sources */,
+				7C89FAA816F3AA8800DE4508 /* RecognizerSharedState.m in Sources */,
+				7C89FAA916F3AA8800DE4508 /* Parser.m in Sources */,
+				7C89FAAA16F3AA8800DE4508 /* ParseTree.m in Sources */,
+				7C89FAAB16F3AA8800DE4508 /* TreeParser.m in Sources */,
+				7C89FAAC16F3AA8800DE4508 /* ParserRuleReturnScope.m in Sources */,
+				7C89FAAD16F3AA8800DE4508 /* RuleMapElement.m in Sources */,
+				7C89FAAE16F3AA8800DE4508 /* RuleReturnScope.m in Sources */,
+				7C89FAAF16F3AA8800DE4508 /* TreeRuleReturnScope.m in Sources */,
+				7C89FAB016F3AA8800DE4508 /* ANTLRFileStream.m in Sources */,
+				7C89FAB116F3AA8800DE4508 /* BufferedTreeNodeStream.m in Sources */,
+				7C89FAB216F3AA8800DE4508 /* CommonTreeNodeStream.m in Sources */,
+				7C89FAB316F3AA8800DE4508 /* RewriteRuleElementStream.m in Sources */,
+				7C89FAB416F3AA8800DE4508 /* RewriteRuleSubtreeStream.m in Sources */,
+				7C89FAB516F3AA8800DE4508 /* RewriteRuleTokenStream.m in Sources */,
+				7C89FAB616F3AA8800DE4508 /* UnbufferedCommonTreeNodeStream.m in Sources */,
+				7C89FAB716F3AA8800DE4508 /* UnbufferedCommonTreeNodeStreamState.m in Sources */,
+				7C89FAB816F3AA8800DE4508 /* BufferedTokenStream.m in Sources */,
+				7C89FAB916F3AA8800DE4508 /* CommonTokenStream.m in Sources */,
+				7C89FABA16F3AA8800DE4508 /* ANTLRInputStream.m in Sources */,
+				7C89FABB16F3AA8800DE4508 /* LookaheadStream.m in Sources */,
+				7C89FABC16F3AA8800DE4508 /* ANTLRReaderStream.m in Sources */,
+				7C89FABD16F3AA8800DE4508 /* StreamEnumerator.m in Sources */,
+				7C89FABE16F3AA8800DE4508 /* ANTLRStringStream.m in Sources */,
+				7C89FABF16F3AA8800DE4508 /* TokenRewriteStream.m in Sources */,
+				7C89FAC016F3AA8800DE4508 /* UnbufferedTokenStream.m in Sources */,
+				7C89FAC116F3AA8800DE4508 /* RewriteRuleNodeStream.m in Sources */,
+				7C89FAC216F3AA8800DE4508 /* CommonToken.m in Sources */,
+				7C89FAC316F3AA8800DE4508 /* BaseTree.m in Sources */,
+				7C89FAC416F3AA8800DE4508 /* BaseTreeAdaptor.m in Sources */,
+				7C89FAC516F3AA8800DE4508 /* CharStreamState.m in Sources */,
+				7C89FAC616F3AA8800DE4508 /* CommonTree.m in Sources */,
+				7C89FAC716F3AA8800DE4508 /* CommonTreeAdaptor.m in Sources */,
+				7C89FAC816F3AA8800DE4508 /* TreeIterator.m in Sources */,
+				7C89FAC916F3AA8800DE4508 /* TreePatternLexer.m in Sources */,
+				7C89FACA16F3AA8800DE4508 /* TreePatternParser.m in Sources */,
+				7C89FACB16F3AA8800DE4508 /* TreeRewriter.m in Sources */,
+				7C89FACC16F3AA8800DE4508 /* TreeVisitor.m in Sources */,
+				7C89FACD16F3AA8800DE4508 /* TreeVisitorAction.m in Sources */,
+				7C89FACE16F3AA8800DE4508 /* TreeWizard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5234,10 +5272,10 @@
 			};
 			name = Release;
 		};
-		7CBEFAE216F25AB80057BEAF /* Debug */ = {
+		7C89FA6D16F3A9A100DE4508 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -5246,8 +5284,9 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/ANTLR_iOS.dst;
+				DEAD_CODE_STRIPPING = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
@@ -5261,19 +5300,22 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				INFOPLIST_FILE = "ANTLR-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ANTLR;
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
 		};
-		7CBEFAE316F25AB80057BEAF /* Debug with StringTemplate Debug */ = {
+		7C89FA6E16F3A9A100DE4508 /* Debug with StringTemplate Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -5282,8 +5324,9 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/ANTLR_iOS.dst;
+				DEAD_CODE_STRIPPING = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
@@ -5297,19 +5340,22 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				INFOPLIST_FILE = "ANTLR-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ANTLR;
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = framework;
 			};
 			name = "Debug with StringTemplate Debug";
 		};
-		7CBEFAE416F25AB80057BEAF /* Release */ = {
+		7C89FA6F16F3A9A100DE4508 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -5318,21 +5364,53 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
-				DSTROOT = /tmp/ANTLR_iOS.dst;
+				DEAD_CODE_STRIPPING = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ANTLR-iOS-Prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "ANTLR-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ANTLR;
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		7C89FA7216F3AA3900DE4508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		7C89FA7316F3AA3900DE4508 /* Debug with StringTemplate Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = "Debug with StringTemplate Debug";
+		};
+		7C89FA7416F3AA3900DE4508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
@@ -6822,15 +6900,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		7CBEFAE516F25AB80057BEAF /* Build configuration list for PBXNativeTarget "ANTLR-iOS" */ = {
+		7C89FA6C16F3A9A100DE4508 /* Build configuration list for PBXNativeTarget "ANTLR-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7CBEFAE216F25AB80057BEAF /* Debug */,
-				7CBEFAE316F25AB80057BEAF /* Debug with StringTemplate Debug */,
-				7CBEFAE416F25AB80057BEAF /* Release */,
+				7C89FA6D16F3A9A100DE4508 /* Debug */,
+				7C89FA6E16F3A9A100DE4508 /* Debug with StringTemplate Debug */,
+				7C89FA6F16F3A9A100DE4508 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+		};
+		7C89FA7116F3AA3900DE4508 /* Build configuration list for PBXAggregateTarget "ANTLR-iOS-Aggregate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C89FA7216F3AA3900DE4508 /* Debug */,
+				7C89FA7316F3AA3900DE4508 /* Debug with StringTemplate Debug */,
+				7C89FA7416F3AA3900DE4508 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		F700E86C0A5FA34D005D0757 /* Build configuration list for PBXNativeTarget "combined" */ = {
 			isa = XCConfigurationList;
